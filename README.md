@@ -8,10 +8,10 @@ No third-party theme, no CSS framework, no CDN — the entire site is a few Mark
 
 | Page | URL |
 | --- | --- |
-| Overview | https://tech-littlesoft.github.io/iFastDesk/ |
-| User Guide | https://tech-littlesoft.github.io/iFastDesk/guide/ |
-| Upgrade to Pro | https://tech-littlesoft.github.io/iFastDesk/buy/ |
-| Privacy Policy | https://tech-littlesoft.github.io/iFastDesk/privacy/ |
+| Overview | https://www.ifastdesk.com/ |
+| User Guide | https://www.ifastdesk.com/guide/ |
+| Upgrade to Pro | https://www.ifastdesk.com/buy/ |
+| Privacy Policy | https://www.ifastdesk.com/privacy/ |
 
 Every page is independently addressable. The left sidebar highlights the current page; the right rail generates an on-page table of contents and tracks scroll position.
 
@@ -91,7 +91,7 @@ bundle install
 bundle exec jekyll serve --livereload
 ```
 
-Open http://127.0.0.1:4000/iFastDesk/ — the `/iFastDesk/` prefix comes from `baseurl` and cannot be omitted.
+Open http://127.0.0.1:4000/ — 自定义域名下 `baseurl` 为空、无路径前缀；若退回 GitHub Pages 默认域名，则改为 http://127.0.0.1:4000/iFastDesk/。
 
 ## Custom domain
 
@@ -100,7 +100,7 @@ Open http://127.0.0.1:4000/iFastDesk/ — the `/iFastDesk/` prefix comes from `b
 3. Update `_config.yml`:
 
 ```yaml
-url: https://ifastdesk.com
+url: https://www.ifastdesk.com
 baseurl: ""
 ```
 
