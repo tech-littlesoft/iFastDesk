@@ -1,6 +1,6 @@
-# NoviDesk Docs
+# iFastDesk Docs
 
-Source of the official NoviDesk documentation site, built with Jekyll and served by GitHub Pages.
+Source of the official iFastDesk documentation site, built with Jekyll and served by GitHub Pages.
 
 No third-party theme, no CSS framework, no CDN — the entire site is a few Markdown files plus one stylesheet, so it loads fast and stays reachable from mainland China.
 
@@ -8,10 +8,10 @@ No third-party theme, no CSS framework, no CDN — the entire site is a few Mark
 
 | Page | URL |
 | --- | --- |
-| Overview | https://tech-littlesoft.github.io/NoviDesk/ |
-| User Guide | https://tech-littlesoft.github.io/NoviDesk/guide/ |
-| Upgrade to Pro | https://tech-littlesoft.github.io/NoviDesk/buy/ |
-| Privacy Policy | https://tech-littlesoft.github.io/NoviDesk/privacy/ |
+| Overview | https://tech-littlesoft.github.io/iFastDesk/ |
+| User Guide | https://tech-littlesoft.github.io/iFastDesk/guide/ |
+| Upgrade to Pro | https://tech-littlesoft.github.io/iFastDesk/buy/ |
+| Privacy Policy | https://tech-littlesoft.github.io/iFastDesk/privacy/ |
 
 Every page is independently addressable. The left sidebar highlights the current page; the right rail generates an on-page table of contents and tracks scroll position.
 
@@ -65,7 +65,7 @@ The on-page table of contents is opt-in. Add `toc: true` to a page's front matte
 <a href="{{ '/buy/' | relative_url }}">Upgrade to Pro</a>
 ```
 
-Do not write `href="/buy/"`. Because of the `<base>` tag above, a leading `/` resolves against the domain root and 404s (`.../buy/` instead of `.../NoviDesk/buy/`).
+Do not write `href="/buy/"`. Because of the `<base>` tag above, a leading `/` resolves against the domain root and 404s (`.../buy/` instead of `.../iFastDesk/buy/`).
 
 ## Deployment
 
@@ -91,7 +91,7 @@ bundle install
 bundle exec jekyll serve --livereload
 ```
 
-Open http://127.0.0.1:4000/NoviDesk/ — the `/NoviDesk/` prefix comes from `baseurl` and cannot be omitted.
+Open http://127.0.0.1:4000/iFastDesk/ — the `/iFastDesk/` prefix comes from `baseurl` and cannot be omitted.
 
 ## Custom domain
 
@@ -100,7 +100,7 @@ Open http://127.0.0.1:4000/NoviDesk/ — the `/NoviDesk/` prefix comes from `bas
 3. Update `_config.yml`:
 
 ```yaml
-url: https://novidesk.com
+url: https://ifastdesk.com
 baseurl: ""
 ```
 

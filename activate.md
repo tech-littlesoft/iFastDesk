@@ -19,7 +19,7 @@ toc: true
 <ul class="faq">
   <li>
     <b>复制设备 ID</b>
-    <p>打开 NoviDesk 主菜单 → <b>升级 Pro</b>，点「本设备 ID」右侧的 <span class="kbd">复制</span> 按钮。下单时把设备 ID 填到订单备注。</p>
+    <p>打开 iFastDesk 主菜单 → <b>升级 Pro</b>，点「本设备 ID」右侧的 <span class="kbd">复制</span> 按钮。下单时把设备 ID 填到订单备注。</p>
   </li>
   <li>
     <b>粘贴激活码</b>
@@ -44,7 +44,7 @@ toc: true
   </li>
   <li>
     <b>激活需要联网吗？</b>
-    <p>不需要。校验完全离线完成，不连接任何服务器、不上传硬件信息，授权状态仅保存在本机 <code>%AppData%\NoviDesk\license.dat</code>。</p>
+    <p>不需要。校验完全离线完成，不连接任何服务器、不上传硬件信息，授权状态仅保存在本机 <code>%AppData%\iFastDesk\license.dat</code>。</p>
   </li>
   <li>
     <b>订阅期间能升级到三年套餐吗？</b>

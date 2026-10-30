@@ -1,14 +1,14 @@
 ---
 layout: default
-title: NoviDesk 桌面工作站 · 官方主页
+title: iFastDesk 桌面工作站 · 官方主页
 ---
 
-# NoviDesk 桌面工作站
-<span class="en">NoviDesk Desktop Workstation</span>
+# iFastDesk 桌面工作站
+<span class="en">iFastDesk Desktop Workstation</span>
 
-<p class="lead">NoviDesk 桌面工作站，又称<b>悬浮桌面</b>、<b>小维桌面</b>——一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到屏幕左下角即呼出，移开即隐藏：不占任务栏、不抢焦点，让你的真实桌面永远干净。</p>
+<p class="lead">iFastDesk 桌面工作站，又称<b>悬浮桌面</b>、<b>小迅桌面站</b>——一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到屏幕左下角即呼出，移开即隐藏：不占任务栏、不抢焦点，让你的真实桌面永远干净。</p>
 
-<p class="en lead">NoviDesk Desktop Workstation (a.k.a. Floating Desktop / XiaoWei Desktop) is a smart workspace that lives at the edge of your screen. It gathers file management, quick access and time-based filing into a set of floating cards. Hover the bottom-left corner to summon it; move away and it hides itself — no taskbar clutter, no stolen focus, your real desktop stays clean.</p>
+<p class="en lead">iFastDesk Desktop Workstation (a.k.a. Floating Desktop / XiaoXun Desktop) is a smart workspace that lives at the edge of your screen. It gathers file management, quick access and time-based filing into a set of floating cards. Hover the bottom-left corner to summon it; move away and it hides itself — no taskbar clutter, no stolen focus, your real desktop stays clean.</p>
 
 ## 1. 悬浮桌面 · 灵动桌面
 <span class="en">Floating Desktop · Liquid Desktop · Silky Smooth</span>
@@ -90,8 +90,8 @@ title: NoviDesk 桌面工作站 · 官方主页
 ## 8. 便捷操作指南（推荐）
 <span class="en">Quick Tips — recommended</span>
 
-<p class="zh">以下是我们最推荐的上手捷径，帮你把 NoviDesk 用得最顺手：</p>
-<p class="en">Our top recommended shortcuts to get the most out of NoviDesk:</p>
+<p class="zh">以下是我们最推荐的上手捷径，帮你把 iFastDesk 用得最顺手：</p>
+<p class="en">Our top recommended shortcuts to get the most out of iFastDesk:</p>
 
 <ul class="tips">
   <li>

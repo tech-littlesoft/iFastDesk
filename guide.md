@@ -7,7 +7,7 @@ toc: true
 
 # 用户操作指南 <span class="en">User Guide · Get Started in 5 Minutes</span>
 
-<p class="lead">5 分钟把 NoviDesk 用到最顺手——从安装、呼出，到拖动换位、分屏、时光收纳，一步步带你走完。</p>
+<p class="lead">5 分钟把 iFastDesk 用到最顺手——从安装、呼出，到拖动换位、分屏、时光收纳，一步步带你走完。</p>
 
 <p class="en lead">Everything from install and summon to rearranging, split view and time-based filing — a complete walkthrough.</p>
 
@@ -182,7 +182,7 @@ toc: true
 ## 10. 快捷操作速查 <span class="en">Quick Reference</span>
 
 <figure>
-  <img src="assets/img/08-tips.svg" alt="NoviDesk 常用操作速查" />
+  <img src="assets/img/08-tips.svg" alt="iFastDesk 常用操作速查" />
   <figcaption>把最常用的操作记成一张卡片</figcaption>
 </figure>
 
