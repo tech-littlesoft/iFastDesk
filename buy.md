@@ -39,9 +39,8 @@ wide: true
 
     <ul class="features">
       <li>所有功能无限制使用</li>
-      <li>畅享全量卡片面板</li>
-      <li>企业级高阶办公</li>
-      <li>20 组面板快照</li>
+      <li>畅享全量卡片面板 | 企业级高阶办公</li>
+      <li>20 组面板快照 | 一键切换工作方案</li>
       <li>权益永久继承</li>
     </ul>
     <a class="btn" href="https://www.kufaka.com/item/w1fm39" target="_blank" rel="noopener">立即订阅</a>
@@ -59,13 +58,12 @@ wide: true
 
     <ul class="features">
       <li>所有功能无限制使用</li>
-      <li>畅享全量卡片面板</li>
-      <li>企业级高阶办公</li>
-      <li>20 组面板快照</li>
+      <li>畅享全量卡片面板 | 企业级高阶办公</li>
+      <li>20 组面板快照 | 一键切换工作方案</li>
       <li>权益永久继承</li>
     </ul>
     <a class="btn" href="https://www.kufaka.com/item/5teg75" target="_blank" rel="noopener">立即订阅</a>
   </div>
 </div>
 
-<p class="cta-note">官方限时补贴 · 一杯咖啡起 · 订阅后立即解锁全部能力</p>
+<p class="cta-note">官方限时补贴 · 仅需一杯咖啡的价格 · 订阅后立即解锁全部能力</p>
