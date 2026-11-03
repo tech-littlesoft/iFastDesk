@@ -11,27 +11,19 @@
 </head>
 <body{% if page.wide %} class="wide-page"{% endif %}>
   <header class="topbar">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="iFastDesk 主页">
-      <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true">
-        <rect x="1"  y="1"  width="10" height="10" rx="3" fill="#ff5d5d"/>
-        <rect x="13" y="1"  width="10" height="10" rx="3" fill="#5dadff"/>
-        <rect x="25" y="1"  width="10" height="10" rx="3" fill="#ffd24a"/>
-        <rect x="1"  y="13" width="10" height="10" rx="3" fill="#57d68d"/>
-        <rect x="13" y="13" width="10" height="10" rx="3" fill="#b88bff"/>
-        <rect x="25" y="13" width="10" height="10" rx="3" fill="#ffd24a"/>
-        <rect x="1"  y="25" width="34" height="10" rx="5" fill="#e2e8f0"/>
-      </svg>
+    <a class="brand" href="{{ '/app/' | relative_url }}" aria-label="iFastDesk 产品主页">
+      {% include logo.html class="brand-mark" %}
       <span class="brand-text">
         <span class="brand-name">iFastDesk</span>
         <span class="brand-sub">悬浮桌面 · 小迅桌面站</span>
       </span>
     </a>
-    <a class="topbar-cta" href="{{ '/buy/' | relative_url }}">获取 Pro</a>
+    <a class="topbar-cta" href="{{ '/app/buy/' | relative_url }}">获取 Pro</a>
   </header>
 
   <div class="layout{% if page.toc %} has-toc{% endif %}{% if page.wide %} is-wide{% endif %}">
     <aside class="sidebar" aria-label="文档导航">
-      {% include sidebar.html %}
+      {% include app-sidebar.html %}
     </aside>
 
     <main class="page">

@@ -8,10 +8,11 @@ No third-party theme, no CSS framework, no CDN — the entire site is a few Mark
 
 | Page | URL |
 | --- | --- |
-| Overview | https://www.ifastdesk.com/ |
-| User Guide | https://www.ifastdesk.com/guide/ |
-| Upgrade to Pro | https://www.ifastdesk.com/buy/ |
-| Privacy Policy | https://www.ifastdesk.com/privacy/ |
+| 导航主页 | https://www.ifastdesk.com/ |
+| 产品介绍 | https://www.ifastdesk.com/app/ |
+| 用户操作指南 | https://www.ifastdesk.com/app/guide/ |
+| 升级 Pro | https://www.ifastdesk.com/app/buy/ |
+| 隐私说明 | https://www.ifastdesk.com/app/privacy/ |
 
 Every page is independently addressable. The left sidebar highlights the current page; the right rail generates an on-page table of contents and tracks scroll position.
 
@@ -21,27 +22,41 @@ Every page is independently addressable. The left sidebar highlights the current
 .
 ├── _config.yml            # Jekyll / GitHub Pages settings
 ├── _layouts/
-│   └── default.html       # Top bar, sidebar, content, TOC rail, footer, TOC script
+│   ├── app.html           # 产品站布局（顶栏 + 侧边栏 + TOC）
+│   └── nav.html           # 导航站布局（独立风格，无侧边栏）
 ├── _includes/
-│   └── sidebar.html       # Left navigation
+│   ├── logo.html          # 共享 logo（SVG，两站共用）
+│   └── app-sidebar.html   # 产品站侧边导航
 ├── assets/
-│   ├── css/style.css      # All styles: layout, typography, dark mode, print
-│   └── img/               # Illustrations (.svg) and demo clips (.gif)
-├── index.md               # Overview          ->  /
-├── guide.md               # User Guide        ->  /guide/
-├── buy.md                 # Upgrade to Pro    ->  /buy/
-├── privacy.md             # Privacy Policy    ->  /privacy/
+│   ├── css/
+│   │   ├── style.css      # 产品站样式（仅 app 模块加载）
+│   │   └── nav.css        # 导航站样式（独立设计，仅 nav 模块加载）
+│   └── img/               # 产品站插画(.svg) 与演示(.gif)
+├── app/                   # 产品站（模块一）
+│   ├── index.md           # 产品介绍          ->  /app/
+│   ├── guide.md           # 用户操作指南      ->  /app/guide/
+│   ├── buy.md             # 升级 Pro          ->  /app/buy/
+│   ├── activate.md        # 激活与订阅        ->  /app/activate/
+│   └── privacy.md         # 隐私说明          ->  /app/privacy/
+├── nav/                   # 导航站（模块二，独立风格）
+│   └── index.md           # 导航主页          ->  /
 └── README.md
 ```
+
+两个模块仅共用 logo（`_includes/logo.html`）与 iFastDesk 名称；样式、布局、配色、画幅各自独立：
+产品站走 `app.html` + `style.css`（蓝调、左侧栏文档版式），导航站走 `nav.html` + `nav.css`（暖橙、居中门户版式），互不引用对方元素。
 
 ## Editing
 
 | I want to change | Edit this |
 | --- | --- |
-| Page copy | `index.md` / `guide.md` / `buy.md` / `privacy.md` |
-| Left navigation | `_includes/sidebar.html` |
-| Header, footer, TOC behavior | `_layouts/default.html` |
-| Styles, colors, spacing | `assets/css/style.css` |
+| 产品站页面文案 | `app/index.md` / `app/guide.md` / `app/buy.md` / `app/activate.md` / `app/privacy.md` |
+| 导航站页面文案 | `nav/index.md` |
+| 产品站侧边导航 | `_includes/app-sidebar.html` |
+| 产品站布局 / 顶栏 / TOC | `_layouts/app.html` |
+| 导航站布局 | `_layouts/nav.html` |
+| 产品站样式 | `assets/css/style.css` |
+| 导航站样式 | `assets/css/nav.css` |
 | Illustrations | Replace files under `assets/img/` (`.png` / `.jpg` work too) |
 | Site title, description, baseurl | `_config.yml` |
 
@@ -57,15 +72,15 @@ The on-page table of contents is opt-in. Add `toc: true` to a page's front matte
 <img src="assets/img/01-float.svg">
 ```
 
-`_layouts/default.html` declares `<base href="{{ site.baseurl }}/">`, which resolves these against the repository root on every page, at any depth. No paths need updating when a page moves.
+`_layouts/app.html` declares `<base href="{{ site.baseurl }}/">`, which resolves these against the repository root on every page, at any depth. No paths need updating when a page moves.
 
 **2. Internal links must go through `relative_url`.**
 
 ```liquid
-<a href="{{ '/buy/' | relative_url }}">Upgrade to Pro</a>
+<a href="{{ '/app/buy/' | relative_url }}">升级 Pro</a>
 ```
 
-Do not write `href="/buy/"`. Because of the `<base>` tag above, a leading `/` resolves against the domain root and 404s (`.../buy/` instead of `.../iFastDesk/buy/`).
+Do not write `href="/buy/"`. Because of the `<base>` tag above, a leading `/` resolves against the domain root and 404s (`…/buy/` instead of `…/app/buy/`).
 
 ## Deployment
 

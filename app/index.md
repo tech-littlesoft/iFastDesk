@@ -1,6 +1,6 @@
 ---
-layout: default
-title: iFastDesk 桌面工作站 · 官方主页
+layout: app
+title: iFastDesk 桌面工作站 · 产品介绍
 ---
 
 # iFastDesk 桌面工作站

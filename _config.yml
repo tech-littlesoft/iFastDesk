@@ -19,7 +19,7 @@ baseurl: ""
 #   baseurl: /iFastDesk   # 等于仓库名
 # 并在仓库根目录放置 CNAME 文件（内容为 www.ifastdesk.com），详见 README.md
 
-# 不使用第三方主题，使用仓库内 _layouts/default.html + assets/css/style.css
+# 不使用第三方主题，使用仓库内 _layouts/app.html（产品站）+ _layouts/nav.html（导航站）+ 各自 css
 theme: null
 
 # 三页都启用 pretty URL（去掉 .html 后缀），与各页 front matter 的 permalink 配合

@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: app
 title: 用户操作指南 · User Guide
-permalink: /guide/
 toc: true
 ---
 
@@ -230,10 +229,10 @@ toc: true
   </li>
   <li>
     <b>离线激活 Pro</b>
-    <p class="zh">Pro 通过离线激活码开启，不连接任何服务器，隐私零外泄。激活步骤详见 <a href="{{ '/activate/' | relative_url }}">激活与订阅</a>。</p>
-    <p class="en">Pro unlocks via an offline activation code — no server contact, nothing leaves your machine. See <a href="{{ '/activate/' | relative_url }}">Activation</a> for the steps.</p>
+    <p class="zh">Pro 通过离线激活码开启，不连接任何服务器，隐私零外泄。激活步骤详见 <a href="{{ '/app/activate/' | relative_url }}">激活与订阅</a>。</p>
+    <p class="en">Pro unlocks via an offline activation code — no server contact, nothing leaves your machine. See <a href="{{ '/app/activate/' | relative_url }}">Activation</a> for the steps.</p>
   </li>
 </ul>
 
-<p class="zh">想先看完整功能亮点，可回到 <a href="{{ '/' | relative_url }}">产品主页</a>；准备解锁全部能力，请前往 <a href="{{ '/buy/' | relative_url }}">升级 Pro</a>。</p>
-<p class="en">For the full feature overview head back to the <a href="{{ '/' | relative_url }}">Overview</a>, or continue to <a href="{{ '/buy/' | relative_url }}">Upgrade to Pro</a>.</p>
+<p class="zh">想先看完整功能亮点，可回到 <a href="{{ '/app/' | relative_url }}">产品介绍</a>；准备解锁全部能力，请前往 <a href="{{ '/app/buy/' | relative_url }}">升级 Pro</a>。</p>
+<p class="en">For the full feature overview head back to the <a href="{{ '/app/' | relative_url }}">Product</a>, or continue to <a href="{{ '/app/buy/' | relative_url }}">Upgrade to Pro</a>.</p>

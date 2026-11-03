@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: app
 title: 激活与订阅说明 · Activation
-permalink: /activate/
 toc: true
 ---
 
@@ -9,7 +8,7 @@ toc: true
 
 <p class="lead">已经订阅 Pro？这里说明如何用激活码解锁，以及换机、续费、升级套餐的处理方式。</p>
 
-<p class="zh">还没订阅？前往 <a href="{{ '/buy/' | relative_url }}">升级 Pro</a> 查看当前优惠。</p>
+<p class="zh">还没订阅？前往 <a href="{{ '/app/buy/' | relative_url }}">升级 Pro</a> 查看当前优惠。</p>
 
 ## 购买后如何激活 <span class="en">How to Activate</span>
 

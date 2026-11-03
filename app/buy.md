@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: app
 title: 升级 Pro
-permalink: /buy/
 wide: true
 ---
 

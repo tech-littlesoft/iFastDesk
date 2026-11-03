@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: app
 title: iFastDesk 隐私说明 · Privacy Policy
-permalink: /privacy/
 toc: true
 ---
 
