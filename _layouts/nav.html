@@ -26,7 +26,18 @@
   </main>
 
   <footer class="nav-footer">
-    <p>© {{ site.time | date: '%Y' }} iFastDesk · 小讯云端 · 网址导航</p>
+    <div class="nav-foot-links">
+      <a href="{{ '/' | relative_url }}">首页</a>
+      <a href="{{ '/app/' | relative_url }}">产品介绍</a>
+      <a href="{{ '/app/buy/' | relative_url }}">升级 Pro</a>
+      <a href="{{ '/app/guide/' | relative_url }}">使用指南</a>
+      <a href="{{ '/app/privacy/' | relative_url }}">隐私说明</a>
+      <a href="mailto:links@ifastdesk.com">友情链接</a>
+      <a href="mailto:submit@ifastdesk.com">网站收录</a>
+      <a href="mailto:contact@ifastdesk.com">联系我们</a>
+    </div>
+    <p>© {{ site.time | date: '%Y' }} iFastDesk · 小讯云端 · 网址导航　|　你的高效上网起点</p>
+    <p class="icp">京 ICP 备 0000000 号　·　本导航仅收录公开常用网站，与所列网站无隶属关系</p>
   </footer>
 </body>
 </html>
