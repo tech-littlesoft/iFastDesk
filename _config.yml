@@ -2,9 +2,9 @@
 # 直接 push 到 main 分支，由 GitHub Pages 自动用此配置构建并发布。
 # 不使用任何第三方主题与 CDN，全部用仓库内自定义布局/样式，国内可直连。
 
-title: iFastDesk 桌面工作站
+title: iFastDesk 小迅桌面站
 description: >-
-  iFastDesk 桌面工作站（悬浮桌面 / 小迅桌面站）官方主页与功能亮点介绍。
+  iFastDesk 小迅桌面站（悬浮桌面 / 桌面工作站）官方主页与功能亮点介绍。
   iFastDesk Desktop Workstation (Floating Desktop / XiaoXun Desktop) — official homepage & feature highlights.
 lang: zh-CN
 

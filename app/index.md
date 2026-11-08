@@ -1,12 +1,12 @@
 ---
 layout: app
-title: iFastDesk 桌面工作站 · 产品介绍
+title: iFastDesk 小迅桌面站 · 产品介绍
 ---
 
-# iFastDesk 桌面工作站
+# iFastDesk 小迅桌面站
 <span class="en">iFastDesk Desktop Workstation</span>
 
-<p class="lead">iFastDesk 桌面工作站，又称<b>悬浮桌面</b>、<b>小迅桌面站</b>——一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到屏幕左下角即呼出，移开即隐藏：不占任务栏、不抢焦点，让你的真实桌面永远干净。</p>
+<p class="lead">iFastDesk 小迅桌面站，又称<b>悬浮桌面</b>、<b>桌面工作站</b>——一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到屏幕左下角即呼出，移开即隐藏：不占任务栏、不抢焦点，让你的真实桌面永远干净。</p>
 
 <p class="en lead">iFastDesk Desktop Workstation (a.k.a. Floating Desktop / XiaoXun Desktop) is a smart workspace that lives at the edge of your screen. It gathers file management, quick access and time-based filing into a set of floating cards. Hover the bottom-left corner to summon it; move away and it hides itself — no taskbar clutter, no stolen focus, your real desktop stays clean.</p>
 
@@ -21,10 +21,10 @@ title: iFastDesk 桌面工作站 · 产品介绍
   <figcaption>鼠标移到角落 → 工作台从边缘滑出（支持多显示器 / 多触发角）</figcaption>
 </figure>
 
-## 2. 卡片面板
+## 2. 卡片面板 · 工作站
 <span class="en">Card Panels</span>
 
-<p class="zh">默认 3×3 卡片网格，每格是一个独立文件夹面板。卡片可拖动标题栏互相换位，长按拖入文件夹即可定制属于你的版面。</p>
+<p class="zh">每个卡片是一个独立文件夹面板。卡片可拖动标题栏互相换位，长按拖入文件夹即可定制属于你的版面, 可以直接在卡片面板上完成文件编辑修改, 1:1 复刻win剪贴/移动/复制/删除/撤销/重命名等操作, 并且可直接展开分屏进入下级目录, 快让你可以在不需要离开当前窗口下, 完成文件编辑。</p>
 <p class="en">A 3×3 grid of card panels, each an independent folder view. Drag a panel's title bar to swap positions; drop a folder in to make it yours.</p>
 
 <figure>
