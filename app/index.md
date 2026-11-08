@@ -8,7 +8,46 @@ title: iFastDesk 小迅桌面站 · 产品介绍
 
 <p class="lead">iFastDesk 小迅桌面站，又称<b>悬浮桌面</b>、<b>桌面工作站</b>——一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到屏幕左下角即呼出，移开即隐藏：不占任务栏、不抢焦点，让你的真实桌面永远干净。</p>
 
-<p class="en lead">iFastDesk Desktop Workstation (a.k.a. Floating Desktop / XiaoXun Desktop) is a smart workspace that lives at the edge of your screen. It gathers file management, quick access and time-based filing into a set of floating cards. Hover the bottom-left corner to summon it; move away and it hides itself — no taskbar clutter, no stolen focus, your real desktop stays clean.</p>
+<p class="en lead">iFastDesk XiaoXun Desktop, also known as <b>Floating Desktop</b> / <b>Desktop Workstation</b> — a smart workspace that lives at the edge of your screen. It gathers file management, quick access and time-based filing into a set of floating cards. Hover the bottom-left corner to summon it; move away and it hides itself — no taskbar clutter, no stolen focus, your real desktop stays clean.</p>
+
+<div class="shot-strip">
+  <img src="assets/img/01-float.svg" alt="悬浮桌面" />
+  <img src="assets/img/02-cards.svg" alt="卡片面板" />
+  <img src="assets/img/03-fileops.svg" alt="文件操作" />
+  <img src="assets/img/04-split.svg" alt="分屏模式" />
+  <img src="assets/img/05-timecollect.svg" alt="时光收纳" />
+  <img src="assets/img/06-settings.svg" alt="设置卡片" />
+  <img src="assets/img/07-themes.svg" alt="双主题" />
+</div>
+<p class="shot-note">截图一览（商店中以横排画廊展示，可左右滚动）</p>
+
+## 你的桌面，是不是也这样？ <span class="en">Sound familiar?</span>
+
+<p class="zh">图标铺满整个桌面，想找的文件总在最后一屏；下载文件夹像个垃圾场；常用目录要翻三四层才能打开。用了这么多年 Windows，桌面却越来越乱、越来越慢。</p>
+<p class="en">Icons spill across the whole desktop, the file you need is always on the last screen, the Downloads folder is a dumping ground, and favorite folders take three clicks to reach. Years of Windows, and the desktop only gets messier.</p>
+
+## iFastDesk 是什么 <span class="en">What is iFastDesk</span>
+
+<p class="zh">一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到角落即呼出，移开即隐藏：轻盈、灵动、悬浮、快捷——重新定义你的桌面工作方式。</p>
+<p class="en">A smart workspace that lives at the edge of your screen. It gathers file management, quick access and TimeCollect into floating cards, summoned on a hover and gone when not needed — light, fluid, floating, instant: a new way to work.</p>
+
+## 八大亮点 <span class="en">Eight highlights</span>
+
+<ul>
+  <li><p class="zh"><b>悬浮呼出</b>：鼠标移到角落即滑出，移开即隐藏，零点击、不占任务栏，支持多显示器多触发角。</p><p class="en"><b>Floating summon</b>: hover the corner to show, leave to hide — zero-click, no taskbar, multi-monitor &amp; multi-corner.</p></li>
+  <li><p class="zh"><b>卡片面板</b>：3×3 卡片网格，拖标题栏即换位，长按拖入文件夹即定制你的版面。</p><p class="en"><b>Card panels</b>: a 3×3 grid; drag to rearrange, drop a folder in to make it yours.</p></li>
+  <li><p class="zh"><b>文件操作</b>：双击打开、右键原生菜单、拖入即复制、跨面板拖拽即移动，和用资源管理器一样快。</p><p class="en"><b>File ops</b>: double-click, native right-click menu, drag-in to copy, drag-across to move — as fast as Explorer.</p></li>
+  <li><p class="zh"><b>秒进分屏</b>：在文件夹名称上双击即左右分屏，左侧导航、右侧预览，整理文件像翻书一样顺手。</p><p class="en"><b>Split view</b>: double-click a folder name for a side-by-side split — navigate left, preview right.</p></li>
+  <li><p class="zh"><b>时光收纳</b>：新文件按"今天 / 昨天 / 近七天"自动归集，再也不用建一堆日期文件夹。</p><p class="en"><b>TimeCollect</b>: new files auto-bucket into Today / Yesterday / Last 7 days — no more date folders.</p></li>
+  <li><p class="zh"><b>设置卡片</b>：拖文件夹进设置卡即绑定，单选 / 多选聚合，一个面板盯住多处内容。</p><p class="en"><b>Settings card</b>: drop a folder to bind, single/multi-select aggregation in one panel.</p></li>
+  <li><p class="zh"><b>双主题</b>：深 / 浅主题与大小卡片视图一键切换并记忆，白天黑夜随心。</p><p class="en"><b>Themes</b>: dark / light and card-size modes, one tap and remembered.</p></li>
+  <li><p class="zh"><b>离线激活 · 隐私</b>：Pro 通过离线激活码解锁，不联网、不上传，授权只存在你本机。</p><p class="en"><b>Offline activation &amp; privacy</b>: Pro unlocks via an offline code — no network, no upload, license stays on your device.</p></li>
+</ul>
+
+## 为什么选 iFastDesk <span class="en">Why iFastDesk</span>
+
+<p class="zh">它不是又一个桌面整理工具，而是把"乱"变成"有序"的工作方式：零点击常驻、原生手感、隐私零外泄。下载后，你的桌面终于可以只属于你。</p>
+<p class="en">Not just another tidy-up tool, but a way of working that turns chaos into order: zero-click always-ready, native feel, zero data leaving your machine. Your desktop finally belongs to you.</p>
 
 ## 1. 悬浮桌面 · 灵动桌面
 <span class="en">Floating Desktop · Liquid Desktop · Silky Smooth</span>
