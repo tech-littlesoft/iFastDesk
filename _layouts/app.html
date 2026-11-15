@@ -9,7 +9,7 @@
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}" />
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
 </head>
-<body{% if page.wide %} class="wide-page"{% endif %}>
+<body class="{% if page.wide %}wide-page {% endif %}{% if page.media %}media-page{% endif %}">
   <header class="topbar">
     <a class="brand" href="{{ '/app/' | relative_url }}" aria-label="iFastDesk 产品主页">
       {% include logo.html class="brand-mark" %}
@@ -21,7 +21,7 @@
     <a class="topbar-cta" href="{{ '/app/buy/' | relative_url }}">获取 Pro</a>
   </header>
 
-  <div class="layout{% if page.toc %} has-toc{% endif %}{% if page.wide %} is-wide{% endif %}">
+  <div class="layout{% if page.toc %} has-toc{% endif %}{% if page.wide %} is-wide{% endif %}{% if page.media %} media-layout{% endif %}">
     <aside class="sidebar" aria-label="文档导航">
       {% include app-sidebar.html %}
     </aside>
@@ -94,6 +94,9 @@
     nodes.forEach(function (h) { io.observe(h); });
   })();
   </script>
+{% endif %}
+{% if page.media %}
+  <script src="{{ '/assets/js/app-media.js' | relative_url }}" defer></script>
 {% endif %}
 </body>
 </html>

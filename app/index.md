@@ -1,184 +1,117 @@
 ---
 layout: app
 title: iFastDesk 小迅桌面站 · 产品介绍
+description: 鼠标移到角落，文件、应用与常用文件夹即刻就位。通过真实截图与操作录屏，认识 iFastDesk 小迅桌面站。
+media: true
 ---
+
+<!-- store-description:start — 第 0 章；微软应用商店介绍仅同步本段。 -->
 
 # iFastDesk 小迅桌面站
 <span class="en">iFastDesk Desktop Workstation</span>
 
-<p class="lead">iFastDesk 小迅桌面站，又称<b>悬浮桌面</b>、<b>桌面工作站</b>——一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到屏幕左下角即呼出，移开即隐藏：不占任务栏、不抢焦点，让你的真实桌面永远干净。</p>
+<h2 id="overview" class="product-overview-title">0. 鼠标一移，桌面即刻就位 <span class="en">Your workspace, one hover away</span></h2>
 
-<p class="en lead">iFastDesk XiaoXun Desktop, also known as <b>Floating Desktop</b> / <b>Desktop Workstation</b> — a smart workspace that lives at the edge of your screen. It gathers file management, quick access and time-based filing into a set of floating cards. Hover the bottom-left corner to summon it; move away and it hides itself — no taskbar clutter, no stolen focus, your real desktop stays clean.</p>
+<p class="product-promise">常用的，都在手边。<br>专注时，把桌面还给你。</p>
 
-<div class="shot-strip">
-  <img src="assets/img/01-float.svg" alt="悬浮桌面" />
-  <img src="assets/img/02-cards.svg" alt="卡片面板" />
-  <img src="assets/img/03-fileops.svg" alt="文件操作" />
-  <img src="assets/img/04-split.svg" alt="分屏模式" />
-  <img src="assets/img/05-timecollect.svg" alt="时光收纳" />
-  <img src="assets/img/06-settings.svg" alt="设置卡片" />
-  <img src="assets/img/07-themes.svg" alt="双主题" />
+{% include app-image.html id="desktop-dark" hero=true alt="iFastDesk 深色九宫格工作台真实截图，与 Windows 桌面并排显示" caption="真实桌面，真实工作台。常用应用、文件夹与最近文件，一屏就位。" %}
+
+<p class="lead">iFastDesk 小迅桌面站，又称<b>悬浮桌面</b>、<b>桌面工作站</b>。把文件、应用和常用文件夹收进一组悬浮卡片：鼠标移到屏幕角落，工作台滑出；移开，自动收起。找文件、开应用、整理资料，不必反复打开一堆窗口。</p>
+<p class="en lead">iFastDesk brings files, apps and favorite folders into a floating desktop workstation. Hover a screen corner to bring it into view; move away to hide it. Open what you need and organize your work without juggling windows.</p>
+
+### 你的桌面，是不是也这样？ <span class="en">Sound familiar?</span>
+
+<p class="zh">桌面图标越放越多，刚修改的文件转眼找不到；常用目录要一层层翻，整理资料时还得在几个窗口之间来回切换。让常用内容集中在手边，把注意力留给正在做的事。</p>
+<p class="en">Too many desktop icons, a recently edited file you cannot find, folders buried several levels deep, and windows competing for space. Keep what you use close by, so you can focus on the task at hand.</p>
+
+### 八大亮点 <span class="en">Eight highlights</span>
+
+<ul class="product-highlights">
+  <li><b>悬浮呼出 · 随用随到</b><p class="zh">鼠标移到触发角即呼出，移开即隐藏，不占任务栏；支持多显示器与多个触发角。</p><p class="en">Hover to show, leave to hide. Hot corners work across multiple monitors.</p></li>
+  <li><b>卡片工作台 · 各就各位</b><p class="zh">六宫格、九宫格搭配深浅主题。拖动标题栏换位，让常用内容按你的习惯排列。</p><p class="en">Six- and nine-panel layouts, light and dark themes, and cards you can rearrange.</p></li>
+  <li><b>原生文件操作 · 不用换窗口</b><p class="zh">打开、复制、移动、重命名、删除，在卡片里完成熟悉的 Windows 文件操作。</p><p class="en">Familiar Windows file actions, right inside each card.</p></li>
+  <li><b>左右分屏 · 整理更顺手</b><p class="zh">展开文件夹、查看下级内容，减少反复开窗与来回切换。</p><p class="en">Explore folders side by side without opening more windows.</p></li>
+  <li><b>时光文件 · 刚改过，就能找</b><p class="zh">按时间分组查看近期文件，快速找回刚刚处理的资料。</p><p class="en">Find recent work in time-based groups.</p></li>
+  <li><b>自定义卡片 · 常用目录直达</b><p class="zh">把常用文件夹设置进卡片，工作资料、桌面文件与收藏各有位置。</p><p class="en">Give your folders, desktop files and favorites a place of their own.</p></li>
+  <li><b>应用排序 · 顺序由你定</b><p class="zh">按使用习惯调整常用应用的排列，打开工具更顺手。</p><p class="en">Arrange app icons to match your workflow.</p></li>
+  <li><b>离线激活 · 本机授权</b><p class="zh">Pro 使用离线激活码，授权保存在本机，激活无需连接服务器。</p><p class="en">Activate Pro offline, with the license stored on your device.</p></li>
+</ul>
+
+### 你的工作台，也可以是这个样子 <span class="en">Make it your own</span>
+
+<div class="media-pair">
+{% include app-image.html id="cards-light-six" alt="iFastDesk 浅色六宫格主界面真实截图" caption="浅色 · 六宫格：把常用内容展开看。" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" %}
+{% include app-image.html id="cards-dark-nine" alt="iFastDesk 深色九宫格主界面真实截图" caption="深色 · 九宫格：更多目录，一屏掌握。" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" %}
 </div>
-<p class="shot-note">截图一览（商店中以横排画廊展示，可左右滚动）</p>
 
-## 你的桌面，是不是也这样？ <span class="en">Sound familiar?</span>
+<p class="zh">轻盈、灵动、悬浮、快捷。让桌面从文件的堆放处，变成随时就绪的工作台。</p>
+<p class="en">Light, fluid and always within reach. Turn your desktop into a workspace that is ready when you are.</p>
 
-<p class="zh">图标铺满整个桌面，想找的文件总在最后一屏；下载文件夹像个垃圾场；常用目录要翻三四层才能打开。用了这么多年 Windows，桌面却越来越乱、越来越慢。</p>
-<p class="en">Icons spill across the whole desktop, the file you need is always on the last screen, the Downloads folder is a dumping ground, and favorite folders take three clicks to reach. Years of Windows, and the desktop only gets messier.</p>
+<!-- store-description:end — 以下第 1–8 章仅用于网站，不同步到微软应用商店。 -->
 
-## iFastDesk 是什么 <span class="en">What is iFastDesk</span>
+<div class="product-actions">
+  <a class="primary" href="{{ '/app/guide/' | relative_url }}">看操作指南 →</a>
+  <a href="{{ '/app/buy/' | relative_url }}">了解基础版与 Pro</a>
+</div>
 
-<p class="zh">一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到角落即呼出，移开即隐藏：轻盈、灵动、悬浮、快捷——重新定义你的桌面工作方式。</p>
-<p class="en">A smart workspace that lives at the edge of your screen. It gathers file management, quick access and TimeCollect into floating cards, summoned on a hover and gone when not needed — light, fluid, floating, instant: a new way to work.</p>
+## 1. 呼之即出，挥之即去 <span class="en">There when you need it</span>
 
-## 八大亮点 <span class="en">Eight highlights</span>
+<p class="zh">工作台不必一直占着桌面。鼠标移到触发角，文件和应用从屏幕边缘滑出；继续工作时，它又自然收起。无需点击，也无需记住一组快捷键。</p>
+<p class="en">Bring files and apps into view with a hover, then let the panel slip away when you return to work. No click, no hotkey to remember.</p>
 
-<ul>
-  <li><p class="zh"><b>悬浮呼出</b>：鼠标移到角落即滑出，移开即隐藏，零点击、不占任务栏，支持多显示器多触发角。</p><p class="en"><b>Floating summon</b>: hover the corner to show, leave to hide — zero-click, no taskbar, multi-monitor &amp; multi-corner.</p></li>
-  <li><p class="zh"><b>卡片面板</b>：3×3 卡片网格，拖标题栏即换位，长按拖入文件夹即定制你的版面。</p><p class="en"><b>Card panels</b>: a 3×3 grid; drag to rearrange, drop a folder in to make it yours.</p></li>
-  <li><p class="zh"><b>文件操作</b>：双击打开、右键原生菜单、拖入即复制、跨面板拖拽即移动，和用资源管理器一样快。</p><p class="en"><b>File ops</b>: double-click, native right-click menu, drag-in to copy, drag-across to move — as fast as Explorer.</p></li>
-  <li><p class="zh"><b>秒进分屏</b>：在文件夹名称上双击即左右分屏，左侧导航、右侧预览，整理文件像翻书一样顺手。</p><p class="en"><b>Split view</b>: double-click a folder name for a side-by-side split — navigate left, preview right.</p></li>
-  <li><p class="zh"><b>时光收纳</b>：新文件按"今天 / 昨天 / 近七天"自动归集，再也不用建一堆日期文件夹。</p><p class="en"><b>TimeCollect</b>: new files auto-bucket into Today / Yesterday / Last 7 days — no more date folders.</p></li>
-  <li><p class="zh"><b>设置卡片</b>：拖文件夹进设置卡即绑定，单选 / 多选聚合，一个面板盯住多处内容。</p><p class="en"><b>Settings card</b>: drop a folder to bind, single/multi-select aggregation in one panel.</p></li>
-  <li><p class="zh"><b>双主题</b>：深 / 浅主题与大小卡片视图一键切换并记忆，白天黑夜随心。</p><p class="en"><b>Themes</b>: dark / light and card-size modes, one tap and remembered.</p></li>
-  <li><p class="zh"><b>离线激活 · 隐私</b>：Pro 通过离线激活码解锁，不联网、不上传，授权只存在你本机。</p><p class="en"><b>Offline activation &amp; privacy</b>: Pro unlocks via an offline code — no network, no upload, license stays on your device.</p></li>
-</ul>
+{% include app-video.html id="show-hide" loop=true title="鼠标移入移出，呼出与收起悬浮桌面" caption="实机演示：鼠标移到角落呼出，移开自动收起。" %}
 
-## 为什么选 iFastDesk <span class="en">Why iFastDesk</span>
+## 2. 每一张卡片，都按你的习惯来 <span class="en">A place for everything</span>
 
-<p class="zh">它不是又一个桌面整理工具，而是把"乱"变成"有序"的工作方式：零点击常驻、原生手感、隐私零外泄。下载后，你的桌面终于可以只属于你。</p>
-<p class="en">Not just another tidy-up tool, but a way of working that turns chaos into order: zero-click always-ready, native feel, zero data leaving your machine. Your desktop finally belongs to you.</p>
+<p class="zh">把工作资料放左边，把常用应用放上方，把最近文件留在手边。六宫格、九宫格都能各司其职，拖动标题栏即可调整位置。桌面不再只有一种排法。</p>
+<p class="en">Work folders on the left, favorite apps at the top, recent files within reach. Arrange your cards in the order that makes sense to you.</p>
 
-## 1. 悬浮桌面 · 灵动桌面
-<span class="en">Floating Desktop · Liquid Desktop · Silky Smooth</span>
+{% include app-video.html id="rearrange-cards" loop=true title="调整卡片面板位置与设置" caption="实机演示：卡片面板换位与设置，搭出自己的工作台。" %}
 
-<p class="zh">把鼠标移到屏幕左下角，工作台从边缘平滑滑出（约 0.5 秒）；移开后自动收回。呼之即出、挥之即去，零点击常驻。更支持多显示器，支持多个触发角——每个屏幕、每个边角，都能随你心意呼之即出。</p>
-<p class="en">Move your cursor to the bottom-left corner and the workspace glides out from the edge (~0.5s); move away and it retracts. Summoned on demand, gone when not needed — zero-click, always ready. Multi-monitor and multi-corner aware: every screen, every edge works at your call.</p>
+## 3. 处理文件，不必离开工作台 <span class="en">Work with files, right here</span>
 
-<figure>
-  <img src="assets/img/01-float.svg" alt="悬浮桌面：鼠标移到角落呼出工作台" />
-  <figcaption>鼠标移到角落 → 工作台从边缘滑出（支持多显示器 / 多触发角）</figcaption>
-</figure>
+<p class="zh">在卡片中打开文件、创建资料、编辑名称，再移动到合适的目录。熟悉的 Windows 文件操作集中在一处，省去反复打开资源管理器的来回。</p>
+<p class="en">Open, create, rename and move files from your cards. Keep familiar file actions close at hand instead of switching between Explorer windows.</p>
 
-## 2. 卡片面板 · 工作站
-<span class="en">Card Panels</span>
+{% include app-video.html id="file-actions" title="新建文件、编辑、移动与删除操作" caption="实机演示：新建、编辑、移动与删除，直接在卡片中完成。" %}
 
-<p class="zh">每个卡片是一个独立文件夹面板。卡片可拖动标题栏互相换位，长按拖入文件夹即可定制属于你的版面, 可以直接在卡片面板上完成文件编辑修改, 1:1 复刻win剪贴/移动/复制/删除/撤销/重命名等操作, 并且可直接展开分屏进入下级目录, 快让你可以在不需要离开当前窗口下, 完成文件编辑。</p>
-<p class="en">A 3×3 grid of card panels, each an independent folder view. Drag a panel's title bar to swap positions; drop a folder in to make it yours.</p>
+## 4. 展开分屏，少开几个窗口 <span class="en">More context, fewer windows</span>
 
-<figure>
-  <img src="assets/img/02-cards.svg" alt="3×3 卡片面板，可拖动换位" />
-  <figcaption>3×3 卡片网格，拖动标题栏即可换位</figcaption>
-</figure>
+<p class="zh">想看下一级目录，不用丢掉眼前的内容。进入左右分屏，一边保留当前目录，一边展开目标文件夹，浏览和整理都更连贯。</p>
+<p class="en">Keep the current folder in view while opening the next one alongside it. Browse and organize with less back-and-forth.</p>
 
-## 3. 文件与文件夹操作
-<span class="en">File &amp; Folder Operations</span>
+{% include app-video.html id="split-view" loop=true title="文件夹左右分屏操作" caption="实机演示：展开文件夹进入左右分屏。" %}
 
-<p class="zh">双击打开、右键唤出系统原生菜单、把文件拖入卡片即复制、跨面板拖拽即移动——所有 Shell 操作一键可达。</p>
-<p class="en">Double-click to open, right-click for the native Explorer menu, drag a file in to copy, drag across panels to move — every shell action, one gesture away.</p>
+## 5. 刚改过的文件，不必再找一遍 <span class="en">Pick up where you left off</span>
 
-<figure>
-  <img src="assets/img/03-fileops.svg" alt="文件拖入复制、跨面板拖拽移动" />
-  <figcaption>拖入 = 复制，跨面板拖拽 = 移动</figcaption>
-</figure>
+<p class="zh">刚保存的文档、刚修改的资料，在「时光文件」里按时间查看。少想一次文件存在哪里，多一分接着工作的顺畅。</p>
+<p class="en">See recent documents and edited files in time-based groups. Spend less time remembering where you saved something, and get back to it sooner.</p>
 
-## 4. 进入分屏模式
-<span class="en">Split View</span>
+{% include app-image.html id="time-files" alt="时光文件真实截图，右下卡片按时间分组展示近期文件" caption="时光文件：近期修改的资料，按时间分组查看。点击大图可看清界面文字。" %}
 
-<p class="zh">在文件夹<b>名称</b>上双击（而非图标）即进入左右分屏：左侧导航、右侧预览，顶部显示相对路径；点左侧区域即可退出。</p>
-<p class="en">Double-click a folder name (not the icon) to enter a side-by-side split: navigate on the left, preview on the right, with a relative-path breadcrumb on top. Click the left pane to exit.</p>
+## 6. 常用文件夹，变成你的专属卡片 <span class="en">Your folders, your workspace</span>
 
-<figure>
-  <img src="assets/img/04-split.svg" alt="双击文件夹名进入左右分屏" />
-  <figcaption>双击文件夹名 → 左右分屏，点左侧退出</figcaption>
-</figure>
+<p class="zh">桌面文件、工作目录、收藏位置，不必每次从头找起。把它们设置到卡片中，让工作台展示你真正关心的内容。</p>
+<p class="en">Desktop files, project folders and favorite locations belong within easy reach. Set up your cards around the folders that matter to you.</p>
 
-## 5. 时光文件
-<span class="en">TimeCollect</span>
+{% include app-video.html id="bind-folder" title="为卡片设置文件夹" caption="实机演示：把常用文件夹设置到卡片里。" %}
 
-<p class="zh">新文件自动按"今天 / 昨天 / 前天 / 近七天 / 早些时候"归集到对应时间桶，实时刷新。再也不用手动建"2026-08"之类的日期文件夹。</p>
-<p class="en">New files are auto-bucketed into Today / Yesterday / 2 days ago / Last 7 days / Earlier and refreshed live. No more hand-made date folders.</p>
+## 7. 深浅主题，都有真实的桌面质感 <span class="en">Light or dark, make it yours</span>
 
-<figure>
-  <img src="assets/img/05-timecollect.svg" alt="文件按时间自动归集" />
-  <figcaption>文件按时间自动归集，无需手动建文件夹</figcaption>
-</figure>
+<p class="zh">喜欢浅色的通透，还是深色的沉静？同一个工作台，两种风格；搭配六宫格、九宫格，让外观与信息密度都合心意。</p>
+<p class="en">Choose an airy light theme or a quieter dark one, with six or nine panels to suit the way you work.</p>
 
-## 6. 设置卡片
-<span class="en">Settings Card</span>
+<div class="media-pair">
+{% include app-image.html id="cards-light-nine" alt="浅色九宫格主界面真实截图" caption="浅色主题 · 九宫格" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" %}
+{% include app-image.html id="cards-dark-six" alt="深色六宫格主界面真实截图" caption="深色主题 · 六宫格" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" %}
+</div>
 
-<p class="zh">拖动文件夹到设置卡即可绑定面板内容；菜单中切换单文件夹 / 多文件夹（单选 / 多选）聚合，灵活掌控每个面板显示什么。</p>
-<p class="en">Drag a folder onto the settings card to bind panel content; toggle single-folder or multi-folder (single/multi-select) aggregation from the menu to control exactly what each panel shows.</p>
+## 8. 看懂了，就动手试试 <span class="en">Make it part of your day</span>
 
-<figure>
-  <img src="assets/img/06-settings.svg" alt="设置卡绑定文件夹与单选/多选" />
-  <figcaption>拖文件夹进设置卡，单选 / 多选自由切换</figcaption>
-</figure>
+<p class="zh">从第一次设置文件夹，到应用图标排序，操作指南提供完整录屏和逐步说明。选一张卡片，先把你最常用的目录放进去。</p>
+<p class="en">Follow the complete recordings and step-by-step guide, from your first folder setup to arranging app icons. Start with the folder you use most.</p>
 
-## 7. 双主题与视图模式
-<span class="en">Themes &amp; View Modes</span>
-
-<p class="zh">主菜单一键切换深 / 浅主题并记忆偏好；配合大卡片 / 小卡片视图模式，亮屏护眼随心切换。</p>
-<p class="en">One tap in the main menu switches between dark and light themes and remembers your choice; pair it with large/small card view modes for the look you want.</p>
-
-<figure>
-  <img src="assets/img/07-themes.svg" alt="深 / 浅主题切换" />
-  <figcaption>深 / 浅主题一键切换并记忆</figcaption>
-</figure>
-
-## 8. 便捷操作指南（推荐）
-<span class="en">Quick Tips — recommended</span>
-
-<p class="zh">以下是我们最推荐的上手捷径，帮你把 iFastDesk 用得最顺手：</p>
-<p class="en">Our top recommended shortcuts to get the most out of iFastDesk:</p>
-
-<ul class="tips">
-  <li>
-    <img class="tip-gif" src="assets/img/tip01.gif" alt="呼出/收起 演示" />
-    <b>呼出 / 收起 · Show / Hide</b>
-    <p class="zh">鼠标移到屏幕左下角，工作台自动滑出；移开自动隐藏——全程零点击，不占任务栏。</p>
-    <p class="en">Hover the bottom-left corner to summon the workspace; move away and it hides — zero-click, no taskbar clutter.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip02.gif" alt="卡片换位 演示" />
-    <b>卡片换位 · Rearrange Cards</b>
-    <p class="zh">拖动面板标题栏即可与其它面板交换位置，10 秒搭出你的专属版面。</p>
-    <p class="en">Drag a panel's title bar to swap it with another — build your own layout in seconds.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip03.gif" alt="秒进分屏 演示" />
-    <b>秒进分屏 · Instant Split View</b>
-    <p class="zh">在文件夹名称上双击即进入左右分屏，左侧导航、右侧预览，再点左侧退出。</p>
-    <p class="en">Double-click a folder name to enter a side-by-side split (navigate left, preview right); click the left pane to exit.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip04.gif" alt="拖拽复制/移动 演示" />
-    <b>拖拽即复制 / 移动 · Drag to Copy / Move</b>
-    <p class="zh">把文件拖进卡片即复制，跨面板拖拽即移动，免右键、免菜单。</p>
-    <p class="en">Drag a file into a card to copy, or across panels to move — no right-click needed.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip05.gif" alt="原生菜单 演示" />
-    <b>原生菜单 · Native Context Menu</b>
-    <p class="zh">在文件上右键即唤出系统 Explorer 菜单，所有 Shell 操作一键可达。</p>
-    <p class="en">Right-click any file for the native Explorer menu — every shell action, one gesture away.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip06.gif" alt="时光收纳 演示" />
-    <b>时光收纳 · TimeCollect</b>
-    <p class="zh">新文件自动按"今天 / 昨天 / 前天 / 近七天 / 早些时候"归集，无需手动建日期文件夹。</p>
-    <p class="en">New files auto-bucket into Today / Yesterday / 2 days ago / Last 7 days / Earlier — no manual date folders.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip07.gif" alt="一键换肤 演示" />
-    <b>一键换肤 · One-tap Theming</b>
-    <p class="zh">主菜单一键切换深 / 浅主题并记忆偏好，亮屏护眼随心。</p>
-    <p class="en">One tap in the main menu switches dark / light themes and remembers your choice.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip08.gif" alt="单选/多选 演示" />
-    <b>单选 / 多选 · Single / Multi Select</b>
-    <p class="zh">设置面板切换单文件夹或多文件夹聚合，灵活掌控每个面板显示什么。</p>
-    <p class="en">Toggle single-folder or multi-folder aggregation in settings to control exactly what each panel shows.</p>
-  </li>
-</ul>
+<div class="product-actions">
+  <a class="primary" href="{{ '/app/guide/' | relative_url }}">跟着实机演示开始 →</a>
+  <a href="{{ '/app/buy/' | relative_url }}">查看 Pro 权益</a>
+</div>

@@ -2,6 +2,8 @@
 layout: app
 title: 用户操作指南 · User Guide
 toc: true
+media: true
+description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、处理文件、使用分屏与时光文件。
 ---
 
 # 用户操作指南 <span class="en">User Guide · Get Started in 5 Minutes</span>
@@ -10,25 +12,30 @@ toc: true
 
 <p class="en lead">Everything from install and summon to rearranging, split view and time-based filing — a complete walkthrough.</p>
 
-## 1. 安装与首次启动 <span class="en">Install &amp; First Launch</span>
+<h2 id="first-launch">1. 安装与首次启动 <span class="en">Install &amp; First Launch</span></h2>
 
-<p class="zh">从微软应用商店下载最新安装包，双击按提示完成安装。首次启动时，应用会以默认设置出现在屏幕左下角，整个真实桌面保持干净——不占任务栏、不抢焦点。</p>
-<p class="en">Grab the latest installer from microsoft store Releases and follow the prompts. On first launch, the workspace appears at the bottom-left corner with default settings — no taskbar clutter, no stolen focus.</p>
+<p class="zh">在微软应用商店完成安装后启动 iFastDesk。先确认工作台能够正常显示，再设置常用文件夹。默认触发位置为屏幕左下角，后续可在主菜单中调整。</p>
+<p class="en">Install iFastDesk from the Microsoft Store and launch it. Check that the workspace appears, then set up your folders. The default hot corner is the bottom-left corner of your screen.</p>
 
-<blockquote>
-  <p class="zh">Windows 首次运行时若出现 SmartScreen 提示，点「更多信息 → 仍要运行」即可。</p>
-  <p class="en">If Windows SmartScreen appears on first run, choose "More info → Run anyway".</p>
-</blockquote>
+{% include app-image.html id="desktop-light" hero=true alt="iFastDesk 浅色主题在 Windows 桌面上的实际显示效果" caption="首次认识工作台：左侧为卡片面板，右侧仍是你的 Windows 桌面。" %}
 
-## 2. 呼出与收起 <span class="en">Show &amp; Hide</span>
+<h3>先完成第一张卡片 <span class="en">Set up your first card</span></h3>
+
+<ol class="guide-steps">
+  <li>先选一个最常用的工作文件夹，作为第一张卡片的内容。</li>
+  <li>跟随下方录屏打开卡片设置，选择或连接对应文件夹，设置收藏位置。</li>
+  <li>回到工作台，确认卡片显示了该文件夹中的文件，再继续设置其他卡片。</li>
+</ol>
+<p class="en">Choose a folder you use often, follow the recording to configure a card and its favorites, then check its contents before setting up more cards.</p>
+
+{% include app-video.html id="first-setup" title="首次使用：自定义卡片、收藏与连接文件夹" caption="首次设置完整录屏：自定义卡片、设置收藏与连接文件夹。点击播放，可全屏跟做。" %}
+
+<h2 id="show-hide">2. 呼出与收起 <span class="en">Show &amp; Hide</span></h2>
 
 <p class="zh">把鼠标移到屏幕<b>左下角</b>，工作台从边缘平滑滑出（约 0.5 秒）；鼠标移开，自动收回。呼之即出、挥之即去，全程<b>零点击</b>，不需要任何快捷键。</p>
 <p class="en">Move your cursor to the <b>bottom-left corner</b> and the workspace glides out from the edge (~0.5s); move away and it retracts. Summoned and dismissed with zero clicks and no hotkeys.</p>
 
-<figure>
-  <img src="assets/img/01-float.svg" alt="鼠标移到屏幕左下角呼出工作台" />
-  <figcaption>鼠标移到角落 → 工作台从边缘滑出</figcaption>
-</figure>
+{% include app-video.html id="show-hide" title="呼出与收起悬浮桌面" caption="先观察鼠标移入、移出的路径，再在自己的触发角跟做。" %}
 
 <h3>挑选你的触发角 <span class="en">Pick Your Hot Corner</span></h3>
 
@@ -40,22 +47,19 @@ toc: true
   <p class="en">Tip: with multiple monitors, set a corner per screen so the workspace is always within reach.</p>
 </blockquote>
 
-## 3. 卡片面板与版面布局 <span class="en">Card Panels &amp; Layout</span>
+<h2 id="card-layout">3. 卡片面板与版面布局 <span class="en">Card Panels &amp; Layout</span></h2>
 
-<p class="zh">工作台默认是 <b>3×3 卡片网格</b>，每一格都是一个独立的文件夹面板，各自显示不同位置的内容。</p>
-<p class="en">The workspace is a <b>3×3 grid of card panels</b>, each an independent folder view showing a different location.</p>
+<p class="zh">工作台可使用<b>六宫格或九宫格布局</b>。每张卡片显示对应位置的内容；先安排常用目录，再按操作习惯调整位置。</p>
+<p class="en">The workspace supports <b>six- and nine-panel layouts</b>. Set up your folders, then arrange the cards to match your workflow.</p>
 
 <h3>调整卡片位置 <span class="en">Rearrange Cards</span></h3>
 
 <p class="zh">按住一张卡片的<b>标题栏</b>，拖到另一张卡片上松手，两者<b>互换位置</b>——10 秒就能搭出属于你的专属版面。</p>
 <p class="en">Drag a card's <b>title bar</b> onto another card and release to <b>swap</b> them — build your custom layout in seconds.</p>
 
-<figure>
-  <img src="assets/img/02-cards.svg" alt="3×3 卡片面板网格，拖动标题栏可互换位置" />
-  <figcaption>3×3 卡片网格，拖动标题栏即可换位</figcaption>
-</figure>
+{% include app-video.html id="rearrange-cards" title="卡片换位与面板设置" caption="按住卡片标题栏拖动，观察换位与设置过程。" %}
 
-## 4. 把文件夹拖进卡片 <span class="en">Bind Folders to Cards</span>
+<h2 id="bind-folder">4. 把文件夹拖进卡片 <span class="en">Bind Folders to Cards</span></h2>
 
 <p class="zh">用资源管理器（文件管理器）把常用文件夹<b>直接拖到任意卡片</b>上，松手即完成绑定，该面板立刻显示这个文件夹的内容。</p>
 <p class="en">Drag any folder straight from Explorer onto a card and release — the panel immediately shows that folder.</p>
@@ -63,12 +67,11 @@ toc: true
 <p class="zh">也可以把文件夹拖到<b>设置卡</b>上绑定，再在菜单里切换「单文件夹 / 多文件夹聚合」（单选 / 多选），灵活掌控每个面板到底显示什么。</p>
 <p class="en">You can also drop folders onto the <b>Settings card</b>, then toggle single-folder or multi-folder aggregation (single/multi-select) from the menu to control exactly what each panel shows.</p>
 
-<figure>
-  <img src="assets/img/06-settings.svg" alt="拖动文件夹到设置卡绑定，并在单选/多选之间切换" />
-  <figcaption>拖文件夹进设置卡，单选 / 多选自由切换</figcaption>
-</figure>
+{% include app-video.html id="bind-folder" title="设置卡片对应的文件夹" caption="跟做录屏：为卡片设置文件夹，返回面板检查显示内容。" %}
 
-## 5. 文件与文件夹操作 <span class="en">File &amp; Folder Operations</span>
+{% include app-image.html id="desktop-folders" alt="桌面文件设置入卡片后的真实界面" caption="设置完成的参考：桌面文件出现在对应卡片中。" %}
+
+<h2 id="file-actions">5. 文件与文件夹操作 <span class="en">File &amp; Folder Operations</span></h2>
 
 <p class="zh">在卡片里操作文件，和用系统资源管理器几乎一模一样，所有 Shell 操作一键可达：</p>
 <p class="en">Working with files inside a card feels just like the native Explorer — every shell action is one gesture away:</p>
@@ -87,103 +90,60 @@ toc: true
 
 <p class="en">Double-click to open with the default app; right-click for the native Explorer menu; drag a file into a card to copy; drag across panels to move.</p>
 
-<figure>
-  <img src="assets/img/03-fileops.svg" alt="文件拖入卡片即复制，跨面板拖拽即移动" />
-  <figcaption>拖入 = 复制，跨面板拖拽 = 移动</figcaption>
-</figure>
+{% include app-video.html id="file-actions" title="新建文件、编辑、移动与删除" caption="完整操作录屏：新建文件、编辑、移动与删除。可暂停或全屏查看细节。" %}
 
-## 6. 一秒进入分屏 <span class="en">Instant Split View</span>
+<h2 id="split-view">6. 一秒进入分屏 <span class="en">Instant Split View</span></h2>
 
 <p class="zh">在文件夹的<b>名称</b>上双击（注意：不是图标），即进入<b>左右分屏</b>——左侧导航、右侧预览，顶部显示当前相对路径。点左侧区域即可退出分屏。</p>
 <p class="en">Double-click a folder's <b>name</b> (not the icon) to enter a <b>side-by-side split</b> — navigate on the left, preview on the right, with the relative path shown on top. Click the left pane to exit.</p>
 
-<figure>
-  <img src="assets/img/04-split.svg" alt="双击文件夹名称进入左右分屏模式" />
-  <figcaption>双击文件夹名 → 左右分屏，点左侧退出</figcaption>
-</figure>
+{% include app-video.html id="split-view" title="进入与退出文件夹左右分屏" caption="观察双击位置与分屏展开过程，按录屏顺序跟做。" %}
 
-## 7. 时光收纳 <span class="en">TimeCollect</span>
+<h2 id="time-files">7. 时光文件 <span class="en">TimeCollect</span></h2>
 
-<p class="zh">新文件会自动按时间归集到对应的时间桶：<b>今天 / 昨天 / 前天 / 近七天 / 早些时候</b>，并且<b>实时刷新</b>。文件一落盘就能在对应分组里找到，再也不用手动建「2026-08」这类日期文件夹。</p>
-<p class="en">New files are auto-bucketed by time: <b>Today / Yesterday / 2 days ago / Last 7 days / Earlier</b>, refreshed live. Files show up in the right group the moment they land — no more hand-made date folders.</p>
+<p class="zh">在<b>时光文件</b>卡片中，按<b>今天 / 昨天 / 前天 / 近七天等时间分组</b>查看近期文件与修改记录。先找到对应时间段，再查看文件名和时间，打开需要继续处理的资料。</p>
+<p class="en">Use the <b>TimeCollect</b> card to view recent files in time-based groups. Find the relevant day, check the filename and timestamp, then open the document you want to continue working on.</p>
 
-<figure>
-  <img src="assets/img/05-timecollect.svg" alt="新文件按时间自动归集到时间桶" />
-  <figcaption>文件按时间自动归集，无需手动建文件夹</figcaption>
-</figure>
+{% include app-image.html id="time-files" alt="时光文件按今天、昨天、前天等时间组展示近期文件" caption="右下「时光文件」卡片显示近期文件与时间分组；点击大图查看日期与文件名。" %}
 
-## 8. 主题与视图模式 <span class="en">Themes &amp; View Modes</span>
+<h2 id="themes">8. 主题与视图模式 <span class="en">Themes &amp; View Modes</span></h2>
 
 <p class="zh">在<b>主菜单</b>里一键切换<b>深色 / 浅色</b>主题，应用会<b>记住你的偏好</b>，下次启动保持一致。配合<b>大卡片 / 小卡片</b>视图模式，亮屏护眼、信息密度随心切换。</p>
 <p class="en">One tap in the <b>main menu</b> switches between <b>dark and light</b> themes and <b>remembers your choice</b> across restarts. Pair it with <b>large or small card</b> view modes for the density you want.</p>
 
-<figure>
-  <img src="assets/img/07-themes.svg" alt="深色与浅色主题一键切换并记忆偏好" />
-  <figcaption>深 / 浅主题一键切换并记忆</figcaption>
-</figure>
+<div class="media-pair">
+{% include app-image.html id="cards-light-nine" alt="浅色九宫格主界面" caption="浅色主题 · 九宫格" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" %}
+{% include app-image.html id="cards-dark-nine" alt="深色九宫格主界面" caption="深色主题 · 九宫格" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" %}
+</div>
 
-## 9. 高频操作演示 <span class="en">Quick Demos</span>
+<h2 id="app-sort">9. 应用排序与完整演示 <span class="en">App Order &amp; Full Walkthrough</span></h2>
 
-<p class="zh">以下 8 段演示覆盖了日常最高频的操作，看一眼就会：</p>
-<p class="en">These eight demos cover the most frequent actions — one look is enough:</p>
+<h3>调整常用应用的顺序 <span class="en">Arrange Your App Icons</span></h3>
 
-<ul class="tips">
-  <li>
-    <img class="tip-gif" src="assets/img/tip01.gif" alt="呼出与收起演示" />
-    <b>呼出 / 收起 · Show / Hide</b>
-    <p class="zh">鼠标移到屏幕左下角，工作台自动滑出；移开自动隐藏——全程零点击，不占任务栏。</p>
-    <p class="en">Hover the bottom-left corner to summon the workspace; move away and it hides — zero-click, no taskbar clutter.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip02.gif" alt="卡片换位演示" />
-    <b>卡片换位 · Rearrange Cards</b>
-    <p class="zh">拖动面板标题栏即可与其它面板交换位置，10 秒搭出你的专属版面。</p>
-    <p class="en">Drag a panel's title bar to swap it with another — build your own layout in seconds.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip03.gif" alt="一键分屏演示" />
-    <b>秒进分屏 · Instant Split View</b>
-    <p class="zh">在文件夹名称上双击即进入左右分屏，左侧导航、右侧预览，再点左侧退出。</p>
-    <p class="en">Double-click a folder name to enter a side-by-side split (navigate left, preview right); click the left pane to exit.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip04.gif" alt="拖拽复制与移动演示" />
-    <b>拖拽即复制 / 移动 · Drag to Copy / Move</b>
-    <p class="zh">把文件拖进卡片即复制，跨面板拖拽即移动，免右键、免菜单。</p>
-    <p class="en">Drag a file into a card to copy, or across panels to move — no right-click needed.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip05.gif" alt="原生右键菜单演示" />
-    <b>原生菜单 · Native Context Menu</b>
-    <p class="zh">在文件上右键即唤出系统 Explorer 菜单，所有 Shell 操作一键可达。</p>
-    <p class="en">Right-click any file for the native Explorer menu — every shell action, one gesture away.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip06.gif" alt="时光收纳演示" />
-    <b>时光收纳 · TimeCollect</b>
-    <p class="zh">新文件自动按「今天 / 昨天 / 前天 / 近七天 / 早些时候」归集，无需手动建日期文件夹。</p>
-    <p class="en">New files auto-bucket into Today / Yesterday / 2 days ago / Last 7 days / Earlier — no manual date folders.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip07.gif" alt="一键换肤演示" />
-    <b>一键换肤 · One-tap Theming</b>
-    <p class="zh">主菜单一键切换深 / 浅主题并记忆偏好，亮屏护眼随心。</p>
-    <p class="en">One tap in the main menu switches dark / light themes and remembers your choice.</p>
-  </li>
-  <li>
-    <img class="tip-gif" src="assets/img/tip08.gif" alt="单选与多选演示" />
-    <b>单选 / 多选 · Single / Multi Select</b>
-    <p class="zh">设置面板切换单文件夹或多文件夹聚合，灵活掌控每个面板显示什么。</p>
-    <p class="en">Toggle single-folder or multi-folder aggregation in settings to control exactly what each panel shows.</p>
-  </li>
+<p class="zh">在 APP 卡片中按自己的使用习惯调整图标顺序。先选择一个经常使用的应用，按录屏展示的方式移动到更顺手的位置，再依次整理其他图标。</p>
+<p class="en">Arrange the icons in the APP card to match your habits. Follow the recording to move a frequently used app, then organize the rest in the same way.</p>
+
+{% include app-video.html id="sort-apps" title="应用图标自定义排序" caption="实机录屏：调整 APP 卡片内应用图标的顺序。" %}
+
+<h3>连起来看一次 <span class="en">Watch the Complete Tour</span></h3>
+
+<p class="zh">想把上面的操作连起来理解，可以播放完整演示；也可以通过下方链接回到某个操作章节。所有录屏均可暂停、拖动进度与全屏查看。</p>
+<p class="en">Watch the full walkthrough, or jump back to an individual step. Pause, seek or enter full screen whenever you need a closer look.</p>
+
+<ul class="guide-demos">
+  <li><a href="{{ '/app/guide/' | relative_url }}#first-launch">首次设置</a></li>
+  <li><a href="{{ '/app/guide/' | relative_url }}#show-hide">呼出与收起</a></li>
+  <li><a href="{{ '/app/guide/' | relative_url }}#card-layout">卡片换位</a></li>
+  <li><a href="{{ '/app/guide/' | relative_url }}#bind-folder">设置文件夹</a></li>
+  <li><a href="{{ '/app/guide/' | relative_url }}#file-actions">文件操作</a></li>
+  <li><a href="{{ '/app/guide/' | relative_url }}#split-view">左右分屏</a></li>
 </ul>
 
-## 10. 快捷操作速查 <span class="en">Quick Reference</span>
+{% include app-video.html id="full-tour" title="iFastDesk 全部操作演示" caption="完整实机演示。点击后才加载视频，建议全屏观看。" %}
 
-<figure>
-  <img src="assets/img/08-tips.svg" alt="iFastDesk 常用操作速查" />
-  <figcaption>把最常用的操作记成一张卡片</figcaption>
-</figure>
+<h2 id="quick-reference">10. 快捷操作速查 <span class="en">Quick Reference</span></h2>
+
+
 
 <table>
   <thead>
@@ -204,7 +164,7 @@ toc: true
   </tbody>
 </table>
 
-## 11. 进阶玩法 <span class="en">Pro Tips</span>
+<h2 id="pro-tips">11. 进阶玩法 <span class="en">Pro Tips</span></h2>
 
 <ul class="tips">
   <li>

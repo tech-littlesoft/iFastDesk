@@ -1,0 +1,334 @@
+{
+  "images": {
+    "desktop-dark": {
+      "source": "截图深色大屏9b.png",
+      "width": 1527,
+      "height": 1145,
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "webp": "assets/media/app/desktop-dark-480.webp",
+          "jpeg": "assets/media/app/desktop-dark-480.jpg",
+          "webp_bytes": 30802
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "webp": "assets/media/app/desktop-dark-960.webp",
+          "jpeg": "assets/media/app/desktop-dark-960.jpg",
+          "webp_bytes": 89978
+        },
+        {
+          "width": 1527,
+          "height": 1145,
+          "webp": "assets/media/app/desktop-dark-1527.webp",
+          "jpeg": "assets/media/app/desktop-dark-1527.jpg",
+          "webp_bytes": 188658
+        }
+      ],
+      "full": "assets/media/app/desktop-dark-1527.webp",
+      "fallback": "assets/media/app/desktop-dark-1527.jpg"
+    },
+    "desktop-light": {
+      "source": "截图浅色大屏9b.png",
+      "width": 1534,
+      "height": 1145,
+      "variants": [
+        {
+          "width": 480,
+          "height": 358,
+          "webp": "assets/media/app/desktop-light-480.webp",
+          "jpeg": "assets/media/app/desktop-light-480.jpg",
+          "webp_bytes": 29592
+        },
+        {
+          "width": 960,
+          "height": 717,
+          "webp": "assets/media/app/desktop-light-960.webp",
+          "jpeg": "assets/media/app/desktop-light-960.jpg",
+          "webp_bytes": 86774
+        },
+        {
+          "width": 1534,
+          "height": 1145,
+          "webp": "assets/media/app/desktop-light-1534.webp",
+          "jpeg": "assets/media/app/desktop-light-1534.jpg",
+          "webp_bytes": 181588
+        }
+      ],
+      "full": "assets/media/app/desktop-light-1534.webp",
+      "fallback": "assets/media/app/desktop-light-1534.jpg"
+    },
+    "cards-dark-six": {
+      "source": "截图深色6宫格仅主界面.png",
+      "width": 990,
+      "height": 1128,
+      "variants": [
+        {
+          "width": 480,
+          "height": 547,
+          "webp": "assets/media/app/cards-dark-six-480.webp",
+          "jpeg": "assets/media/app/cards-dark-six-480.jpg",
+          "webp_bytes": 31920
+        },
+        {
+          "width": 960,
+          "height": 1094,
+          "webp": "assets/media/app/cards-dark-six-960.webp",
+          "jpeg": "assets/media/app/cards-dark-six-960.jpg",
+          "webp_bytes": 96366
+        },
+        {
+          "width": 990,
+          "height": 1128,
+          "webp": "assets/media/app/cards-dark-six-990.webp",
+          "jpeg": "assets/media/app/cards-dark-six-990.jpg",
+          "webp_bytes": 272262
+        }
+      ],
+      "full": "assets/media/app/cards-dark-six-990.webp",
+      "fallback": "assets/media/app/cards-dark-six-990.jpg"
+    },
+    "cards-dark-nine": {
+      "source": "截图深色9宫格仅主界面.png",
+      "width": 990,
+      "height": 1128,
+      "variants": [
+        {
+          "width": 480,
+          "height": 547,
+          "webp": "assets/media/app/cards-dark-nine-480.webp",
+          "jpeg": "assets/media/app/cards-dark-nine-480.jpg",
+          "webp_bytes": 34950
+        },
+        {
+          "width": 960,
+          "height": 1094,
+          "webp": "assets/media/app/cards-dark-nine-960.webp",
+          "jpeg": "assets/media/app/cards-dark-nine-960.jpg",
+          "webp_bytes": 105170
+        },
+        {
+          "width": 990,
+          "height": 1128,
+          "webp": "assets/media/app/cards-dark-nine-990.webp",
+          "jpeg": "assets/media/app/cards-dark-nine-990.jpg",
+          "webp_bytes": 282712
+        }
+      ],
+      "full": "assets/media/app/cards-dark-nine-990.webp",
+      "fallback": "assets/media/app/cards-dark-nine-990.jpg"
+    },
+    "cards-light-six": {
+      "source": "截图浅色6宫格仅主界面.png",
+      "width": 990,
+      "height": 1128,
+      "variants": [
+        {
+          "width": 480,
+          "height": 547,
+          "webp": "assets/media/app/cards-light-six-480.webp",
+          "jpeg": "assets/media/app/cards-light-six-480.jpg",
+          "webp_bytes": 29412
+        },
+        {
+          "width": 960,
+          "height": 1094,
+          "webp": "assets/media/app/cards-light-six-960.webp",
+          "jpeg": "assets/media/app/cards-light-six-960.jpg",
+          "webp_bytes": 84036
+        },
+        {
+          "width": 990,
+          "height": 1128,
+          "webp": "assets/media/app/cards-light-six-990.webp",
+          "jpeg": "assets/media/app/cards-light-six-990.jpg",
+          "webp_bytes": 187482
+        }
+      ],
+      "full": "assets/media/app/cards-light-six-990.webp",
+      "fallback": "assets/media/app/cards-light-six-990.jpg"
+    },
+    "cards-light-nine": {
+      "source": "截图浅色9宫格仅主界面.png",
+      "width": 990,
+      "height": 1128,
+      "variants": [
+        {
+          "width": 480,
+          "height": 547,
+          "webp": "assets/media/app/cards-light-nine-480.webp",
+          "jpeg": "assets/media/app/cards-light-nine-480.jpg",
+          "webp_bytes": 33294
+        },
+        {
+          "width": 960,
+          "height": 1094,
+          "webp": "assets/media/app/cards-light-nine-960.webp",
+          "jpeg": "assets/media/app/cards-light-nine-960.jpg",
+          "webp_bytes": 94590
+        },
+        {
+          "width": 990,
+          "height": 1128,
+          "webp": "assets/media/app/cards-light-nine-990.webp",
+          "jpeg": "assets/media/app/cards-light-nine-990.jpg",
+          "webp_bytes": 200482
+        }
+      ],
+      "full": "assets/media/app/cards-light-nine-990.webp",
+      "fallback": "assets/media/app/cards-light-nine-990.jpg"
+    },
+    "time-files": {
+      "source": "时光文件-最近修改的文件显示 即时找到.png",
+      "width": 990,
+      "height": 1128,
+      "variants": [
+        {
+          "width": 480,
+          "height": 547,
+          "webp": "assets/media/app/time-files-480.webp",
+          "jpeg": "assets/media/app/time-files-480.jpg",
+          "webp_bytes": 33338
+        },
+        {
+          "width": 960,
+          "height": 1094,
+          "webp": "assets/media/app/time-files-960.webp",
+          "jpeg": "assets/media/app/time-files-960.jpg",
+          "webp_bytes": 99168
+        },
+        {
+          "width": 990,
+          "height": 1128,
+          "webp": "assets/media/app/time-files-990.webp",
+          "jpeg": "assets/media/app/time-files-990.jpg",
+          "webp_bytes": 257856
+        }
+      ],
+      "full": "assets/media/app/time-files-990.webp",
+      "fallback": "assets/media/app/time-files-990.jpg"
+    },
+    "desktop-folders": {
+      "source": "桌面文件设置入卡片.png",
+      "width": 990,
+      "height": 1128,
+      "variants": [
+        {
+          "width": 480,
+          "height": 547,
+          "webp": "assets/media/app/desktop-folders-480.webp",
+          "jpeg": "assets/media/app/desktop-folders-480.jpg",
+          "webp_bytes": 30766
+        },
+        {
+          "width": 960,
+          "height": 1094,
+          "webp": "assets/media/app/desktop-folders-960.webp",
+          "jpeg": "assets/media/app/desktop-folders-960.jpg",
+          "webp_bytes": 88220
+        },
+        {
+          "width": 990,
+          "height": 1128,
+          "webp": "assets/media/app/desktop-folders-990.webp",
+          "jpeg": "assets/media/app/desktop-folders-990.jpg",
+          "webp_bytes": 177746
+        }
+      ],
+      "full": "assets/media/app/desktop-folders-990.webp",
+      "fallback": "assets/media/app/desktop-folders-990.jpg"
+    }
+  },
+  "videos": {
+    "show-hide": {
+      "source": "动画-移入移出-悬浮桌面2.mp4",
+      "width": 1548,
+      "height": 1200,
+      "duration": 17.14,
+      "mp4": "assets/media/app/show-hide.mp4",
+      "bytes": 2061736,
+      "source_bytes": 2937816,
+      "poster": "assets/media/app/show-hide-poster.webp",
+      "poster_fallback": "assets/media/app/show-hide-poster.jpg"
+    },
+    "rearrange-cards": {
+      "source": "动画-卡片面板换位-设置操作.mp4",
+      "width": 1542,
+      "height": 1200,
+      "duration": 51.34,
+      "mp4": "assets/media/app/rearrange-cards.mp4",
+      "bytes": 2675677,
+      "source_bytes": 7079336,
+      "poster": "assets/media/app/rearrange-cards-poster.webp",
+      "poster_fallback": "assets/media/app/rearrange-cards-poster.jpg"
+    },
+    "first-setup": {
+      "source": "动画-卡片设置-自定义卡片-首次使用-设置收藏连接文件夹.mp4",
+      "width": 1550,
+      "height": 1200,
+      "duration": 67.17,
+      "mp4": "assets/media/app/first-setup.mp4",
+      "bytes": 2494453,
+      "source_bytes": 5842193,
+      "poster": "assets/media/app/first-setup-poster.webp",
+      "poster_fallback": "assets/media/app/first-setup-poster.jpg"
+    },
+    "split-view": {
+      "source": "动画-分屏操作.mp4",
+      "width": 1546,
+      "height": 1200,
+      "duration": 36.2,
+      "mp4": "assets/media/app/split-view.mp4",
+      "bytes": 1682584,
+      "source_bytes": 3420521,
+      "poster": "assets/media/app/split-view-poster.webp",
+      "poster_fallback": "assets/media/app/split-view-poster.jpg"
+    },
+    "bind-folder": {
+      "source": "视频-设置文件夹.mp4",
+      "width": 990,
+      "height": 1128,
+      "duration": 19.46,
+      "mp4": "assets/media/app/bind-folder.mp4",
+      "bytes": 530963,
+      "source_bytes": 2209626,
+      "poster": "assets/media/app/bind-folder-poster.webp",
+      "poster_fallback": "assets/media/app/bind-folder-poster.jpg"
+    },
+    "file-actions": {
+      "source": "视频-新建文件编辑移动删除操作.mp4",
+      "width": 990,
+      "height": 1128,
+      "duration": 37.89,
+      "mp4": "assets/media/app/file-actions.mp4",
+      "bytes": 998821,
+      "source_bytes": 3159096,
+      "poster": "assets/media/app/file-actions-poster.webp",
+      "poster_fallback": "assets/media/app/file-actions-poster.jpg"
+    },
+    "sort-apps": {
+      "source": "视频-应用图标自己排序.mp4",
+      "width": 990,
+      "height": 1128,
+      "duration": 24.8,
+      "mp4": "assets/media/app/sort-apps.mp4",
+      "bytes": 1168921,
+      "source_bytes": 3700114,
+      "poster": "assets/media/app/sort-apps-poster.webp",
+      "poster_fallback": "assets/media/app/sort-apps-poster.jpg"
+    },
+    "full-tour": {
+      "source": "视频-全部演示.mp4",
+      "width": 1600,
+      "height": 1162,
+      "duration": 93.17,
+      "mp4": "assets/media/app/full-tour.mp4",
+      "bytes": 7872195,
+      "source_bytes": 20828659,
+      "poster": "assets/media/app/full-tour-poster.webp",
+      "poster_fallback": "assets/media/app/full-tour-poster.jpg"
+    }
+  }
+}

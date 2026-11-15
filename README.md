@@ -31,7 +31,8 @@ Every page is independently addressable. The left sidebar highlights the current
 │   ├── css/
 │   │   ├── style.css      # 产品站样式（仅 app 模块加载）
 │   │   └── nav.css        # 导航站样式（独立设计，仅 nav 模块加载）
-│   └── img/               # 产品站插画(.svg) 与演示(.gif)
+│   ├── img/               # Logo、图标与历史示意素材
+│   └── media/app/         # 实际 App 截图、视频与封面
 ├── app/                   # 产品站（模块一）
 │   ├── index.md           # 产品介绍          ->  /app/
 │   ├── guide.md           # 用户操作指南      ->  /app/guide/
@@ -57,7 +58,7 @@ Every page is independently addressable. The left sidebar highlights the current
 | 导航站布局 | `_layouts/nav.html` |
 | 产品站样式 | `assets/css/style.css` |
 | 导航站样式 | `assets/css/nav.css` |
-| Illustrations | Replace files under `assets/img/` (`.png` / `.jpg` work too) |
+| 产品截图与演示视频 | `scripts/prepare_app_media.py`、`_data/app_media.json`、`assets/media/app/` |
 | Site title, description, baseurl | `_config.yml` |
 
 Bilingual pages use two helper classes: `.zh` for the Chinese line, `.en` for the English line beneath it.
@@ -120,3 +121,38 @@ baseurl: ""
 ```
 
 Nothing else changes — links, stylesheets, and images follow automatically.
+
+## Real app media
+
+`/app/` 用于宣传产品效果，`/app/guide/` 用于逐步操作说明。两页使用真实截图和录屏；原有 SVG/GIF 示意素材不再被这两页引用。
+
+原始素材保留在 `E:\iFastDesk\素材`，网页版本由脚本生成，不修改原文件：
+
+```powershell
+python -m pip install Pillow imageio-ffmpeg
+python scripts/prepare_app_media.py --source "E:\iFastDesk\素材"
+```
+
+也可用 `--ffmpeg "完整路径\ffmpeg.exe"` 指定已有转码器。只更新图片使用 `--images-only`，已有视频清单会保留。
+
+- 图片提供 480、960 像素与不超过 1600 像素的原始大图版本，不放大原图。WebP 为首选，JPEG 为兼容回退；990 像素宽的主界面大图使用无损 WebP，保留文字细节。
+- 大图通过 `srcset` / `sizes` 适配屏幕。首屏主图优先加载，其他图片懒加载；点击可放大，并切换到原始尺寸。禁用脚本时图片仍可通过链接单独打开。
+- 视频使用 H.264 MP4 / 24 fps / `faststart`，保持完整操作过程和画面比例，宽度上限为 1600 像素，高度按比例调整；静音录屏移除音轨。完整演示也只在播放后加载。
+- 所有视频使用 `preload="none"`，封面接近视口时才加载。产品页的循环演示仅在进入视口后静音播放，离开视口、切到后台或打开大图时暂停；指南中的录屏由用户点击播放。
+- 尊重系统的减少动画设置和浏览器省流量设置，关闭自动播放；用户主动暂停的演示不会被滚动再次启动。
+- `_data/app_media.json` 记录原始文件名、网页路径、尺寸、时长与文件大小。两页复用 `_includes/app-image.html` 和 `_includes/app-video.html`，共享同一份素材。
+
+| 作用 | 录屏文件名 | 网页素材 ID |
+| --- | --- | --- |
+| 悬浮呼出与收起 | 动画-移入移出-悬浮桌面2.mp4 | `show-hide` |
+| 卡片换位与设置 | 动画-卡片面板换位-设置操作.mp4 | `rearrange-cards` |
+| 首次设置、自定义卡片、收藏 | 动画-卡片设置-自定义卡片-首次使用-设置收藏连接文件夹.mp4 | `first-setup` |
+| 左右分屏 | 动画-分屏操作.mp4 | `split-view` |
+| 设置文件夹 | 视频-设置文件夹.mp4 | `bind-folder` |
+| 新建、编辑、移动、删除 | 视频-新建文件编辑移动删除操作.mp4 | `file-actions` |
+| 应用图标排序 | 视频-应用图标自己排序.mp4 | `sort-apps` |
+| 完整演示 | 视频-全部演示.mp4 | `full-tour` |
+
+## Microsoft Store introduction
+
+`app/index.md` 中 `store-description:start` 与 `store-description:end` 注释之间为第 0 章，包含产品介绍、八大亮点与真实截图。微软应用商店介绍仅同步这一段；第 1–8 章的网页视频演示、导航按钮和整个操作指南不属于商店介绍。HTML 注释不会显示在网页上；这些标记只界定同步范围，不会自动发布到商店。

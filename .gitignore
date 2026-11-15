@@ -15,3 +15,7 @@ vendor/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Local media converters, contact sheets, and browser QA artifacts
+.media-work/
+__pycache__/
