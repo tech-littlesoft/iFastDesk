@@ -17,7 +17,7 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 <p class="zh">在微软应用商店完成安装后启动 iFastDesk。先确认工作台能够正常显示，再设置常用文件夹。默认触发位置为屏幕左下角，后续可在主菜单中调整。</p>
 <p class="en">Install iFastDesk from the Microsoft Store and launch it. Check that the workspace appears, then set up your folders. The default hot corner is the bottom-left corner of your screen.</p>
 
-{% include app-image.html id="desktop-light" hero=true alt="iFastDesk 浅色主题在 Windows 桌面上的实际显示效果" caption="首次认识工作台：左侧为卡片面板，右侧仍是你的 Windows 桌面。" %}
+{% include app-image.html id="desktop-light" hero=true alt="iFastDesk 浅色主题在 Windows 桌面上的实际显示效果" caption="浅色桌面全景" ref="G01" %}
 
 <h3>先完成第一张卡片 <span class="en">Set up your first card</span></h3>
 
@@ -28,14 +28,14 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 </ol>
 <p class="en">Choose a folder you use often, follow the recording to configure a card and its favorites, then check its contents before setting up more cards.</p>
 
-{% include app-video.html id="first-setup" title="首次使用：自定义卡片、收藏与连接文件夹" caption="首次设置完整录屏：自定义卡片、设置收藏与连接文件夹。点击播放，可全屏跟做。" %}
+{% include app-video.html id="first-setup" title="首次使用：自定义卡片、收藏与连接文件夹" caption="自定义卡片、收藏与文件夹" ref="G02" loop=true %}
 
 <h2 id="show-hide">2. 呼出与收起 <span class="en">Show &amp; Hide</span></h2>
 
 <p class="zh">把鼠标移到屏幕<b>左下角</b>，工作台从边缘平滑滑出（约 0.5 秒）；鼠标移开，自动收回。呼之即出、挥之即去，全程<b>零点击</b>，不需要任何快捷键。</p>
 <p class="en">Move your cursor to the <b>bottom-left corner</b> and the workspace glides out from the edge (~0.5s); move away and it retracts. Summoned and dismissed with zero clicks and no hotkeys.</p>
 
-{% include app-video.html id="show-hide" title="呼出与收起悬浮桌面" caption="先观察鼠标移入、移出的路径，再在自己的触发角跟做。" %}
+{% include app-video.html id="show-hide" title="呼出与收起悬浮桌面" caption="呼出与收起" ref="G03" loop=true %}
 
 <h3>挑选你的触发角 <span class="en">Pick Your Hot Corner</span></h3>
 
@@ -57,7 +57,7 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 <p class="zh">按住一张卡片的<b>标题栏</b>，拖到另一张卡片上松手，两者<b>互换位置</b>——10 秒就能搭出属于你的专属版面。</p>
 <p class="en">Drag a card's <b>title bar</b> onto another card and release to <b>swap</b> them — build your custom layout in seconds.</p>
 
-{% include app-video.html id="rearrange-cards" title="卡片换位与面板设置" caption="按住卡片标题栏拖动，观察换位与设置过程。" %}
+{% include app-video.html id="rearrange-cards" title="卡片换位与面板设置" caption="卡片换位与设置" ref="G04" loop=true %}
 
 <h2 id="bind-folder">4. 把文件夹拖进卡片 <span class="en">Bind Folders to Cards</span></h2>
 
@@ -67,9 +67,9 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 <p class="zh">也可以把文件夹拖到<b>设置卡</b>上绑定，再在菜单里切换「单文件夹 / 多文件夹聚合」（单选 / 多选），灵活掌控每个面板到底显示什么。</p>
 <p class="en">You can also drop folders onto the <b>Settings card</b>, then toggle single-folder or multi-folder aggregation (single/multi-select) from the menu to control exactly what each panel shows.</p>
 
-{% include app-video.html id="bind-folder" title="设置卡片对应的文件夹" caption="跟做录屏：为卡片设置文件夹，返回面板检查显示内容。" %}
+{% include app-video.html id="bind-folder" title="设置卡片对应的文件夹" caption="设置文件夹" ref="G05" loop=true %}
 
-{% include app-image.html id="desktop-folders" alt="桌面文件设置入卡片后的真实界面" caption="设置完成的参考：桌面文件出现在对应卡片中。" %}
+{% include app-image.html id="desktop-folders" alt="桌面文件设置入卡片后的真实界面" caption="桌面文件卡片" ref="G06" %}
 
 <h2 id="file-actions">5. 文件与文件夹操作 <span class="en">File &amp; Folder Operations</span></h2>
 
@@ -90,21 +90,21 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 
 <p class="en">Double-click to open with the default app; right-click for the native Explorer menu; drag a file into a card to copy; drag across panels to move.</p>
 
-{% include app-video.html id="file-actions" title="新建文件、编辑、移动与删除" caption="完整操作录屏：新建文件、编辑、移动与删除。可暂停或全屏查看细节。" %}
+{% include app-video.html id="file-actions" title="新建文件、编辑、移动与删除" caption="新建文件、编辑、移动与删除" ref="G07" loop=true %}
 
 <h2 id="split-view">6. 一秒进入分屏 <span class="en">Instant Split View</span></h2>
 
 <p class="zh">在文件夹的<b>名称</b>上双击（注意：不是图标），即进入<b>左右分屏</b>——左侧导航、右侧预览，顶部显示当前相对路径。点左侧区域即可退出分屏。</p>
 <p class="en">Double-click a folder's <b>name</b> (not the icon) to enter a <b>side-by-side split</b> — navigate on the left, preview on the right, with the relative path shown on top. Click the left pane to exit.</p>
 
-{% include app-video.html id="split-view" title="进入与退出文件夹左右分屏" caption="观察双击位置与分屏展开过程，按录屏顺序跟做。" %}
+{% include app-video.html id="split-view" title="进入与退出文件夹左右分屏" caption="左右分屏" ref="G08" loop=true %}
 
 <h2 id="time-files">7. 时光文件 <span class="en">TimeCollect</span></h2>
 
 <p class="zh">在<b>时光文件</b>卡片中，按<b>今天 / 昨天 / 前天 / 近七天等时间分组</b>查看近期文件与修改记录。先找到对应时间段，再查看文件名和时间，打开需要继续处理的资料。</p>
 <p class="en">Use the <b>TimeCollect</b> card to view recent files in time-based groups. Find the relevant day, check the filename and timestamp, then open the document you want to continue working on.</p>
 
-{% include app-image.html id="time-files" alt="时光文件按今天、昨天、前天等时间组展示近期文件" caption="右下「时光文件」卡片显示近期文件与时间分组；点击大图查看日期与文件名。" %}
+{% include app-image.html id="time-files" alt="时光文件按今天、昨天、前天等时间组展示近期文件" caption="时光文件" ref="G09" %}
 
 <h2 id="themes">8. 主题与视图模式 <span class="en">Themes &amp; View Modes</span></h2>
 
@@ -112,8 +112,8 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 <p class="en">One tap in the <b>main menu</b> switches between <b>dark and light</b> themes and <b>remembers your choice</b> across restarts. Pair it with <b>large or small card</b> view modes for the density you want.</p>
 
 <div class="media-pair">
-{% include app-image.html id="cards-light-nine" alt="浅色九宫格主界面" caption="浅色主题 · 九宫格" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" %}
-{% include app-image.html id="cards-dark-nine" alt="深色九宫格主界面" caption="深色主题 · 九宫格" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" %}
+{% include app-image.html id="cards-light-nine" alt="浅色九宫格主界面" caption="浅色九宫格" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" ref="G10" %}
+{% include app-image.html id="cards-dark-nine" alt="深色九宫格主界面" caption="深色九宫格" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" ref="G11" %}
 </div>
 
 <h2 id="app-sort">9. 应用排序与完整演示 <span class="en">App Order &amp; Full Walkthrough</span></h2>
@@ -123,12 +123,12 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 <p class="zh">在 APP 卡片中按自己的使用习惯调整图标顺序。先选择一个经常使用的应用，按录屏展示的方式移动到更顺手的位置，再依次整理其他图标。</p>
 <p class="en">Arrange the icons in the APP card to match your habits. Follow the recording to move a frequently used app, then organize the rest in the same way.</p>
 
-{% include app-video.html id="sort-apps" title="应用图标自定义排序" caption="实机录屏：调整 APP 卡片内应用图标的顺序。" %}
+{% include app-video.html id="sort-apps" title="应用图标自定义排序" caption="应用图标排序" ref="G12" loop=true %}
 
 <h3>连起来看一次 <span class="en">Watch the Complete Tour</span></h3>
 
-<p class="zh">想把上面的操作连起来理解，可以播放完整演示；也可以通过下方链接回到某个操作章节。所有录屏均可暂停、拖动进度与全屏查看。</p>
-<p class="en">Watch the full walkthrough, or jump back to an individual step. Pause, seek or enter full screen whenever you need a closer look.</p>
+<p class="zh">想把上面的操作连起来理解，可以播放完整演示；也可以通过下方链接回到某个操作章节。</p>
+<p class="en">Watch the full walkthrough, or jump back to an individual step. </p>
 
 <ul class="guide-demos">
   <li><a href="{{ '/app/guide/' | relative_url }}#first-launch">首次设置</a></li>
@@ -139,7 +139,7 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
   <li><a href="{{ '/app/guide/' | relative_url }}#split-view">左右分屏</a></li>
 </ul>
 
-{% include app-video.html id="full-tour" title="iFastDesk 全部操作演示" caption="完整实机演示。点击后才加载视频，建议全屏观看。" %}
+{% include app-video.html id="full-tour" title="iFastDesk 全部操作演示" caption="完整演示" ref="G13" %}
 
 <h2 id="quick-reference">10. 快捷操作速查 <span class="en">Quick Reference</span></h2>
 

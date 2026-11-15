@@ -1,8 +1,8 @@
 {%- assign media = site.data.app_media.videos[include.id] -%}
-<figure class="app-media app-demo">
+<figure id="{{ include.ref }}" class="app-media app-demo">
   <video class="demo-video" controls muted playsinline preload="none" data-poster="{{ media.poster | relative_url }}" width="{{ media.width }}" height="{{ media.height }}" aria-label="{{ include.title | escape }}"{% if include.loop %} loop data-auto-play{% endif %}>
     <source src="{{ media.mp4 | relative_url }}" type="video/mp4">
     <p>您的浏览器不支持内嵌视频。<a href="{{ media.mp4 | relative_url }}">打开「{{ include.title }}」演示</a>。</p>
   </video>
-  <figcaption>{{ include.caption }} <a class="media-original" href="{{ media.mp4 | relative_url }}" target="_blank" rel="noopener">单独播放 ↗</a></figcaption>
+  <figcaption><a class="media-id" href="{{ page.url | relative_url }}#{{ include.ref }}">{{ include.ref }}</a> {{ include.caption }}</figcaption>
 </figure>
