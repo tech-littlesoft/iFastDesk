@@ -8,7 +8,7 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 
 # 用户操作指南 <span class="en">User Guide · Get Started in 5 Minutes</span>
 
-<p class="lead">5 分钟把 iFastDesk 用到最顺手——从安装、呼出，到拖动换位、分屏、时光收纳，一步步带你走完。</p>
+<p class="lead">5 分钟把 iFastDesk 用到最顺手——从安装、呼出，到拖动换位、分屏、时光文件，一步步带你走完。</p>
 
 <p class="en lead">Everything from install and summon to rearranging, split view and time-based filing — a complete walkthrough.</p>
 

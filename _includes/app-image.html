@@ -7,5 +7,5 @@
     </picture>
     <span class="media-zoom" aria-hidden="true">↗</span>
   </a>
-  <figcaption><a class="media-id" href="{{ page.url | relative_url }}#{{ include.ref }}">{{ include.ref }}</a> {{ include.caption }}</figcaption>
+  {% unless include.gallery %}<figcaption><a class="media-id" href="{{ page.url | relative_url }}#{{ include.ref }}">{{ include.ref }}</a> {{ include.caption }}</figcaption>{% endunless %}
 </figure>

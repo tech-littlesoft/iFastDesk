@@ -238,12 +238,12 @@ body.media-page .site-footer { max-width:1500px; }
 .media-id { color:var(--muted); font-size:11px; font-variant-numeric:tabular-nums; text-decoration:none; margin-right:5px; }
 .media-id:hover { text-decoration:underline; }
 .demo-video { display:block; width:min(100%, calc(var(--media-height) * var(--video-aspect))); aspect-ratio:var(--video-aspect); max-width:100%; height:auto; max-height:var(--media-height); margin:0 auto; border:1px solid var(--line); border-radius:14px; background:#152237; }
-.store-gallery { --gallery-height:min(clamp(220px,28vw,320px),var(--media-height)); display:flex; flex-wrap:nowrap; gap:0; width:100%; overflow-x:scroll; padding:0 0 12px; border-radius:12px 12px 0 0; scroll-snap-type:x proximity; scrollbar-color:var(--brand) var(--line); scrollbar-width:auto; }
+.store-gallery { --gallery-height:calc(min(clamp(220px,28vw,320px),var(--media-height)) * 1.7); display:flex; flex-wrap:nowrap; gap:4px; background:var(--card); width:100%; overflow-x:scroll; padding:0 0 12px; border-radius:12px 12px 0 0; scroll-snap-type:x proximity; scrollbar-color:var(--brand) var(--line); scrollbar-width:auto; }
 .store-gallery .app-media { flex:none; width:auto; max-width:none; margin:0; min-width:0; scroll-snap-align:start; }
 .store-gallery .media-open { width:fit-content; max-width:none; border-radius:0; }
 .store-gallery img { width:auto; max-width:none; height:var(--gallery-height); max-height:none; margin:0; border:0; border-radius:0; background:transparent; }
 .store-gallery .media-zoom { display:none; }
-.store-gallery figcaption { margin:7px 0 2px; font-size:11px; line-height:1.5; }
+.store-gallery figcaption { display:none; }
 .store-gallery .media-id { margin-right:4px; font-size:10px; }
 .store-gallery::-webkit-scrollbar { height:10px; }
 .store-gallery::-webkit-scrollbar-track { background:var(--line); border-radius:8px; }

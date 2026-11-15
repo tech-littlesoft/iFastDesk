@@ -13,15 +13,15 @@ product: true
 
 <p class="product-promise">常用的，都在手边。</p>
 
-<p class="lead">iFastDesk 小迅桌面站，又称<b>悬浮桌面</b>、<b>桌面工作站</b>——一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到屏幕左下角即呼出，移开即隐藏：不占任务栏、不抢焦点，让你的真实桌面永远干净。</p>
+<p class="lead">iFastDesk 小迅桌面站，又称<b>悬浮桌面</b>、<b>桌面工作站</b>——一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光文件"收进一组悬浮卡片，鼠标移到屏幕左下角即呼出，移开即隐藏：不占任务栏、不抢焦点，让你的真实桌面永远干净。</p>
 
 <div class="shot-strip store-gallery" role="region" aria-label="产品视图" tabindex="0">
-{% include app-image.html id="cards-dark-six" alt="深色六宫格" caption="深色六宫格" sizes="(max-width: 820px) 300px, 450px" ref="A01" %}
-{% include app-image.html id="cards-light-six" alt="浅色六宫格" caption="浅色六宫格" sizes="(max-width: 820px) 300px, 450px" ref="A02" %}
-{% include app-image.html id="cards-dark-nine" alt="深色九宫格" caption="深色九宫格" sizes="(max-width: 820px) 300px, 450px" ref="A03" %}
-{% include app-image.html id="cards-light-nine" alt="浅色九宫格" caption="浅色九宫格" sizes="(max-width: 820px) 300px, 450px" ref="A04" %}
-{% include app-image.html id="desktop-dark" alt="深色桌面全景" caption="深色桌面全景" sizes="(max-width: 820px) 300px, 450px" ref="A05" %}
-{% include app-image.html id="desktop-light" alt="浅色桌面全景" caption="浅色桌面全景" sizes="(max-width: 820px) 300px, 450px" ref="A06" %}
+{% include app-image.html id="desktop-dark" alt="深色桌面全景" caption="深色桌面全景" sizes="(max-width: 820px) 510px, 730px" ref="A05" gallery=true %}
+{% include app-image.html id="desktop-light" alt="浅色桌面全景" caption="浅色桌面全景" sizes="(max-width: 820px) 510px, 730px" ref="A06" gallery=true %}
+{% include app-image.html id="cards-dark-six" alt="深色六宫格" caption="深色六宫格" sizes="(max-width: 820px) 330px, 480px" ref="A01" gallery=true %}
+{% include app-image.html id="cards-dark-nine" alt="深色九宫格" caption="深色九宫格" sizes="(max-width: 820px) 330px, 480px" ref="A03" gallery=true %}
+{% include app-image.html id="cards-light-six" alt="浅色六宫格" caption="浅色六宫格" sizes="(max-width: 820px) 330px, 480px" ref="A02" gallery=true %}
+{% include app-image.html id="cards-light-nine" alt="浅色九宫格" caption="浅色九宫格" sizes="(max-width: 820px) 330px, 480px" ref="A04" gallery=true %}
 </div>
 
 <p class="en lead">iFastDesk XiaoXun Desktop, also known as <b>Floating Desktop</b> / <b>Desktop Workstation</b> — a smart workspace that lives at the edge of your screen. It gathers file management, quick access and time-based filing into a set of floating cards. Hover the bottom-left corner to summon it; move away and it hides itself — no taskbar clutter, no stolen focus, your real desktop stays clean.</p>
@@ -33,20 +33,20 @@ product: true
 
 ## iFastDesk 是什么 <span class="en">What is iFastDesk</span>
 
-<p class="zh">一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光收纳"收进一组悬浮卡片，鼠标移到角落即呼出，移开即隐藏：轻盈、灵动、悬浮、快捷——重新定义你的桌面工作方式。</p>
+<p class="zh">一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光文件"收进一组悬浮卡片，鼠标移到角落即呼出，移开即隐藏：轻盈、灵动、悬浮、快捷——重新定义你的桌面工作方式。</p>
 <p class="en">A smart workspace that lives at the edge of your screen. It gathers file management, quick access and TimeCollect into floating cards, summoned on a hover and gone when not needed — light, fluid, floating, instant: a new way to work.</p>
 
 ## 八大亮点 <span class="en">Eight highlights</span>
 
 <ul class="product-highlights">
-  <li><p class="zh"><b>悬浮呼出</b>：鼠标移到角落即滑出，移开即隐藏，零点击、不占任务栏，支持多显示器多触发角。</p><p class="en"><b>Floating summon</b>: hover the corner to show, leave to hide — zero-click, no taskbar, multi-monitor &amp; multi-corner.</p></li>
+  <li><p class="zh"><b>悬浮桌面 · 灵动桌面</b>：鼠标移到角落即滑出，移开即隐藏，零点击、不占任务栏，支持多显示器多触发角。</p><p class="en"><b>Floating desktop</b>: hover the corner to show, leave to hide — zero-click, no taskbar, multi-monitor &amp; multi-corner.</p></li>
   <li><p class="zh"><b>卡片面板</b>：六宫格、九宫格按需选择，拖动标题栏换位，把常用内容排成你的习惯。</p><p class="en"><b>Card panels</b>: six- or nine-panel layouts; rearrange cards and keep your folders close.</p></li>
-  <li><p class="zh"><b>文件操作</b>：双击打开、右键原生菜单、拖入即复制、跨面板拖拽即移动，和用资源管理器一样快。</p><p class="en"><b>File ops</b>: double-click, native right-click menu, drag-in to copy, drag-across to move — as fast as Explorer.</p></li>
+  <li><p class="zh"><b>文件操作</b>：双击打开、右键原生菜单、拖拽复制或移动。U盘插入后，快速显示盘内文件，查看和操作更顺手。</p><p class="en"><b>File ops</b>: double-click, use native menus, copy or move files. Plug in a USB drive to quickly view and work with its files.</p></li>
   <li><p class="zh"><b>秒进分屏</b>：在文件夹名称上双击即左右分屏，左侧导航、右侧预览，整理文件像翻书一样顺手。</p><p class="en"><b>Split view</b>: double-click a folder name for a side-by-side split — navigate left, preview right.</p></li>
-  <li><p class="zh"><b>时光收纳</b>：近期文件按时间分组显示，刚修改的资料，随时接着处理。</p><p class="en"><b>TimeCollect</b>: see recent files in time-based groups and pick up where you left off.</p></li>
+  <li><p class="zh"><b>时光文件</b>：近期文件按时间分组显示，刚修改的资料，随时接着处理。</p><p class="en"><b>TimeCollect</b>: see recent files in time-based groups and pick up where you left off.</p></li>
   <li><p class="zh"><b>设置卡片</b>：拖文件夹进设置卡即绑定，单选 / 多选聚合，一个面板盯住多处内容。</p><p class="en"><b>Settings card</b>: drop a folder to bind, single/multi-select aggregation in one panel.</p></li>
-  <li><p class="zh"><b>双主题</b>：深 / 浅主题与大小卡片视图一键切换并记忆，白天黑夜随心。</p><p class="en"><b>Themes</b>: dark / light and card-size modes, one tap and remembered.</p></li>
-  <li><p class="zh"><b>离线激活 · 隐私</b>：Pro 通过离线激活码解锁，不联网、不上传，授权只存在你本机。</p><p class="en"><b>Offline activation &amp; privacy</b>: Pro unlocks via an offline code — no network, no upload, license stays on your device.</p></li>
+  <li><p class="zh"><b>深色浅色两种主题选择</b>：深色沉静，浅色通透，一键切换并记忆偏好。</p><p class="en"><b>Dark and light themes</b>: choose your look with one tap, and keep your preference.</p></li>
+  <li><p class="zh"><b>面板快照</b>：保存常用面板组合，一键切换工作方案，办公、学习随场景切换。</p><p class="en"><b>Panel snapshots</b>: save your panel setups and switch workspaces for work, study or any task.</p></li>
 </ul>
 
 ## 为什么选 iFastDesk <span class="en">Why iFastDesk</span>
