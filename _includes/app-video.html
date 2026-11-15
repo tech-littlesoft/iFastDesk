@@ -1,6 +1,6 @@
 {%- assign media = site.data.app_media.videos[include.id] -%}
 <figure id="{{ include.ref }}" class="app-media app-demo">
-  <video class="demo-video" controls muted playsinline preload="none" data-poster="{{ media.poster | relative_url }}" width="{{ media.width }}" height="{{ media.height }}" aria-label="{{ include.title | escape }}"{% if include.loop %} loop data-auto-play{% endif %}>
+  <video class="demo-video" style="--video-aspect: {{ media.width }} / {{ media.height }};" controls muted playsinline preload="none" data-poster="{{ media.poster | relative_url }}" width="{{ media.width }}" height="{{ media.height }}" aria-label="{{ include.title | escape }}"{% if include.loop %} loop data-auto-play{% endif %}>
     <source src="{{ media.mp4 | relative_url }}" type="video/mp4">
     <p>您的浏览器不支持内嵌视频。<a href="{{ media.mp4 | relative_url }}">打开「{{ include.title }}」演示</a>。</p>
   </video>
