@@ -145,7 +145,7 @@ python scripts/prepare_app_media.py --source "E:\iFastDesk\素材"
 | 作用 | 录屏文件名 | 网页素材 ID |
 | --- | --- | --- |
 | 悬浮呼出与收起 | 动画-移入移出-悬浮桌面2.mp4 | `show-hide` |
-| 卡片换位与设置 | 动画-卡片面板换位-设置操作.mp4 | `rearrange-cards` |
+| 卡片换位与设置 | 动画-卡片面板换位-设置操作 (2).mp4 | `rearrange-cards` |
 | 首次设置、自定义卡片、收藏 | 动画-卡片设置-自定义卡片-首次使用-设置收藏连接文件夹.mp4 | `first-setup` |
 | 左右分屏 | 动画-分屏操作.mp4 | `split-view` |
 | 设置文件夹 | 视频-设置文件夹.mp4 | `bind-folder` |
@@ -155,6 +155,8 @@ python scripts/prepare_app_media.py --source "E:\iFastDesk\素材"
 
 ## Microsoft Store introduction
 
-`app/index.md` 中 `store-description:start` 与 `store-description:end` 注释之间为第 0 章，保留原有介绍结构，配横排六张小截图，覆盖深浅主题、六宫格、九宫格与桌面全景。微软应用商店介绍仅同步这一段；第 1–8 章的网页视频演示、导航按钮和整个操作指南不属于商店介绍。HTML 注释不会显示在网页上；这些标记只界定同步范围，不会自动发布到商店。
+`app/index.md` 中 `store-description:start` 与 `store-description:end` 注释之间为第 0 章，保留原有介绍结构，配六张连续横排截图，覆盖深浅主题、六宫格、九宫格与桌面全景。微软应用商店介绍仅同步这一段；第 1–8 章的网页视频演示、导航按钮和整个操作指南不属于商店介绍。HTML 注释不会显示在网页上；这些标记只界定同步范围，不会自动发布到商店。
 
-图注仅保留素材编号与功能名：产品页 `A01`–`A14`，指南页 `G01`–`G13`，编号链接可直接定位。正文图片和视频高度上限为 `min(640px, 72svh)`；商店介绍的横排小图高度为 144px，手机保持横向滚动。
+图注仅保留素材编号与功能名：产品页 `A01`–`A14`，指南页 `G01`–`G13`，编号链接可直接定位。正文图片和视频以原版悬浮动画为高度基准：正文宽度 × 1200 / 1548，正文最大宽度 1100px 时约 853px；不再受视口高度限制。图库按原比例连续铺排，图片紧邻，底部保留横向滚动条。
+
+只替换 A08 对应录屏：`python scripts/prepare_app_media.py --source "E:\iFastDesk\素材" --video rearrange-cards`。新录屏与封面使用 `rearrange-cards-v2` 文件名，避免浏览器继续使用旧缓存；指南中的同功能演示同步更新。

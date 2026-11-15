@@ -254,15 +254,15 @@
       "poster_fallback": "assets/media/app/show-hide-poster.jpg"
     },
     "rearrange-cards": {
-      "source": "动画-卡片面板换位-设置操作.mp4",
-      "width": 1542,
-      "height": 1200,
-      "duration": 51.34,
-      "mp4": "assets/media/app/rearrange-cards.mp4",
-      "bytes": 2675677,
-      "source_bytes": 7079336,
-      "poster": "assets/media/app/rearrange-cards-poster.webp",
-      "poster_fallback": "assets/media/app/rearrange-cards-poster.jpg"
+      "source": "动画-卡片面板换位-设置操作 (2).mp4",
+      "width": 990,
+      "height": 1128,
+      "duration": 58.17,
+      "mp4": "assets/media/app/rearrange-cards-v2.mp4",
+      "bytes": 1579308,
+      "source_bytes": 6845274,
+      "poster": "assets/media/app/rearrange-cards-v2-poster.webp",
+      "poster_fallback": "assets/media/app/rearrange-cards-v2-poster.jpg"
     },
     "first-setup": {
       "source": "动画-卡片设置-自定义卡片-首次使用-设置收藏连接文件夹.mp4",

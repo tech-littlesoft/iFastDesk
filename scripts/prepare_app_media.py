@@ -29,7 +29,7 @@ IMAGES = {
 }
 VIDEOS = {
     "show-hide": "动画-移入移出-悬浮桌面2.mp4",
-    "rearrange-cards": "动画-卡片面板换位-设置操作.mp4",
+    "rearrange-cards": "动画-卡片面板换位-设置操作 (2).mp4",
     "first-setup": "动画-卡片设置-自定义卡片-首次使用-设置收藏连接文件夹.mp4",
     "split-view": "动画-分屏操作.mp4",
     "bind-folder": "视频-设置文件夹.mp4",
@@ -75,6 +75,7 @@ def run(ffmpeg: str, arguments: list[str]) -> None:
 
 def prepare_video(item: tuple[str, str], source: Path, ffmpeg: str) -> tuple[str, dict]:
     slug, filename = item
+    output_slug = "rearrange-cards-v2" if slug == "rearrange-cards" else slug
     original = source / filename
     probe = subprocess.run([ffmpeg, "-hide_banner", "-i", str(original)],
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
@@ -86,18 +87,18 @@ def prepare_video(item: tuple[str, str], source: Path, ffmpeg: str) -> tuple[str
     # Preserve the complete recording. At 24 fps mouse movements remain easy to follow.
     # Cap at 1600 px, retain aspect ratio, and never enlarge the source.
     scale = "scale='min(1600,iw)':-2:flags=lanczos,setsar=1"
-    mp4 = OUTPUT / f"{slug}.mp4"
+    mp4 = OUTPUT / f"{output_slug}.mp4"
     run(ffmpeg, ["-i", str(original), "-an", "-vf", scale, "-r", "24",
                  "-c:v", "libx264", "-preset", "slow", "-crf", "21", "-pix_fmt", "yuv420p",
                  "-movflags", "+faststart", "-threads", "2", str(mp4)])
-    poster_png = OUTPUT / f"{slug}-poster.png"
+    poster_png = OUTPUT / f"{output_slug}-poster.png"
     run(ffmpeg, ["-ss", str(min(1.0, duration / 4)), "-i", str(mp4),
                  "-frames:v", "1", str(poster_png)])
     with Image.open(poster_png) as poster:
         width, height = poster.size
-        poster_path = OUTPUT / f"{slug}-poster.webp"
+        poster_path = OUTPUT / f"{output_slug}-poster.webp"
         poster.save(poster_path, "WEBP", quality=90, method=6)
-        poster_jpeg = OUTPUT / f"{slug}-poster.jpg"
+        poster_jpeg = OUTPUT / f"{output_slug}-poster.jpg"
         poster.convert("RGB").save(poster_jpeg, "JPEG", quality=88, optimize=True)
     poster_png.unlink()
     print(f"video {slug}: {width}x{height}, {duration:.1f}s, {mp4.stat().st_size / 1048576:.2f} MiB", flush=True)
@@ -112,17 +113,25 @@ def main() -> None:
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--ffmpeg")
     parser.add_argument("--images-only", action="store_true")
+    parser.add_argument("--video", choices=VIDEOS, help="Regenerate one video and keep the other assets.")
     args = parser.parse_args()
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    required = list(IMAGES.values()) + ([] if args.images_only else list(VIDEOS.values()))
+    if args.video and args.images_only:
+        parser.error("--video and --images-only cannot be combined")
+    selected_videos = {args.video: VIDEOS[args.video]} if args.video else VIDEOS
+    required = [VIDEOS[args.video]] if args.video else list(IMAGES.values()) + ([] if args.images_only else list(VIDEOS.values()))
     missing = [name for name in required if not (args.source / name).is_file()]
     if missing:
         raise SystemExit(f"Missing source files: {missing}")
     path = ROOT / "_data" / "app_media.json"
     manifest = {"images": {}, "videos": {}}
-    if args.images_only and path.is_file():
+    if args.video:
+        if not path.is_file():
+            parser.error("A media manifest is required for --video")
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+    elif args.images_only and path.is_file():
         manifest["videos"] = json.loads(path.read_text(encoding="utf-8"))["videos"]
-    for item in IMAGES.items():
+    for item in ([] if args.video else IMAGES.items()):
         slug, data = prepare_image(item, args.source)
         manifest["images"][slug] = data
         print(f"image {slug}: {data['width']}x{data['height']}", flush=True)
@@ -132,7 +141,7 @@ def main() -> None:
             import imageio_ffmpeg
             ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
         with ThreadPoolExecutor(max_workers=2) as executor:
-            results = executor.map(lambda item: prepare_video(item, args.source, ffmpeg), VIDEOS.items())
+            results = executor.map(lambda item: prepare_video(item, args.source, ffmpeg), selected_videos.items())
             for slug, data in results:
                 manifest["videos"][slug] = data
     path.parent.mkdir(exist_ok=True)

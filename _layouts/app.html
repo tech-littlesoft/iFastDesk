@@ -9,7 +9,7 @@
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}" />
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
 </head>
-<body class="{% if page.wide %}wide-page {% endif %}{% if page.media %}media-page{% endif %}">
+<body class="{% if page.wide %}wide-page {% endif %}{% if page.media %}media-page {% endif %}{% if page.product %}product-page{% endif %}">
   <header class="topbar">
     <a class="brand" href="{{ '/app/' | relative_url }}" aria-label="iFastDesk 产品主页">
       {% include logo.html class="brand-mark" %}
