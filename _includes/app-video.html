@@ -1,8 +1,11 @@
 {%- assign media = site.data.app_media.videos[include.id] -%}
 <figure id="{{ include.ref }}" class="app-media app-demo">
-  <video class="demo-video" style="--video-aspect: {{ media.width }} / {{ media.height }};" controls muted playsinline preload="none" data-poster="{{ media.poster | relative_url }}" width="{{ media.width }}" height="{{ media.height }}" aria-label="{{ include.title | escape }}"{% if include.loop %} loop data-auto-play{% endif %}>
+  <div class="video-frame" style="--video-aspect: {{ media.width }} / {{ media.height }};">
+  <video class="demo-video" style="--video-aspect: {{ media.width }} / {{ media.height }}; --video-width: {{ media.width }}px;" controls muted playsinline loop data-auto-play preload="none" disablepictureinpicture disableremoteplayback controlslist="nodownload noremoteplayback noplaybackrate" data-poster="{{ media.poster | relative_url }}" width="{{ media.width }}" height="{{ media.height }}" aria-label="{{ include.title | escape }}">
     <source src="{{ media.mp4 | relative_url }}" type="video/mp4">
     <p>您的浏览器不支持内嵌视频。<a href="{{ media.mp4 | relative_url }}">打开「{{ include.title }}」演示</a>。</p>
   </video>
+  <button class="media-zoom video-zoom" type="button" data-media-video aria-label="放大：{{ include.title | escape }}" title="放大"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 5.5 5.5M7 10h6M10 7v6"></path></svg></button>
+  </div>
   <figcaption><a class="media-id" href="{{ page.url | relative_url }}#{{ include.ref }}">{{ include.ref }}</a> {{ include.caption }}</figcaption>
 </figure>
