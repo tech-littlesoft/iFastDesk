@@ -9,7 +9,7 @@
   var pendingFrame = 0;
 
   videos.forEach(function (video) {
-    states.set(video, { userPaused: false, managedPause: false, pending: false, blocked: false });
+    states.set(video, { userPaused: false, managedPauses: 0, pending: false, blocked: false });
     video.muted = true;
     video.defaultMuted = true;
     video.playsInline = true;
@@ -18,7 +18,7 @@
 
   function pauseVideo(video) {
     if (!video.paused) {
-      states.get(video).managedPause = true;
+      states.get(video).managedPauses += 1;
       video.pause();
     }
   }
@@ -39,9 +39,11 @@
       promise.then(function () {
         state.pending = false;
         state.blocked = false;
+        schedulePlayback();
       }, function (error) {
         state.pending = false;
         state.blocked = error.name === 'NotAllowedError';
+        if (error.name === 'AbortError') schedulePlayback();
       });
     } else {
       state.pending = false;
@@ -91,10 +93,11 @@
   videos.forEach(function (video) {
     video.addEventListener('pause', function () {
       var state = states.get(video);
-      if (state.managedPause) state.managedPause = false;
+      if (state.managedPauses > 0) state.managedPauses -= 1;
       else state.userPaused = true;
     });
     video.addEventListener('play', function () {
+      if (video.paused) return;
       states.get(video).userPaused = false;
       activeVideo = video;
       videos.forEach(function (other) { if (other !== video) pauseVideo(other); });
