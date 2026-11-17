@@ -70,6 +70,8 @@
     var score = 0;
     videos.forEach(function (video) {
       var state = states.get(video);
+      // A native resume can precede its queued play event during a resize.
+      if (!video.paused) state.userPaused = false;
       var visible = visibilityScore(video);
       if (!state.userPaused && visible > score) {
         candidate = video;
@@ -121,10 +123,17 @@
     schedulePlayback();
   });
   function retryBlocked() {
-    videos.forEach(function (video) { states.get(video).blocked = false; });
-    if (!lightboxOpen) updatePlayback();
+    var retry = false;
+    videos.forEach(function (video) {
+      if (states.get(video).blocked) {
+        states.get(video).blocked = false;
+        retry = true;
+      }
+    });
+    if (retry && !lightboxOpen) updatePlayback();
   }
   document.addEventListener('pointerdown', retryBlocked, { passive: true });
+  document.addEventListener('click', retryBlocked);
   document.addEventListener('keydown', retryBlocked);
   schedulePlayback();
 
