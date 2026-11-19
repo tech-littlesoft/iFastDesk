@@ -65,7 +65,10 @@ permalink: /
     </div>
   </div>
   <div class="nav-feature-media">
-    <img src="{{ '/assets/img/01-float.svg' | relative_url }}" alt="iFastDesk 悬浮桌面工作台" />
+    <picture>
+      <source type="image/webp" srcset="{{ '/assets/media/nav/promo-nine-cards-zh-800.webp' | relative_url }}" />
+      <img src="{{ '/assets/media/nav/promo-nine-cards-zh-800.jpg' | relative_url }}" alt="iFastDesk 九宫格工作台宣传海报" width="800" height="600" loading="lazy" decoding="async" style="display:block;max-width:400px;margin-inline:auto;" />
+    </picture>
   </div>
 </section>
 

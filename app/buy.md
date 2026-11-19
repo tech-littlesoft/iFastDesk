@@ -42,7 +42,10 @@ wide: true
       <li>20 组面板快照 | 一键切换工作方案</li>
       <li>权益永久继承</li>
     </ul>
+    <!-- 暂时屏蔽订阅跳转；恢复时取消原链接注释，并移除下方禁用按钮。
     <a class="btn" href="https://www.kufaka.com/item/w1fm39" target="_blank" rel="noopener">立即订阅</a>
+    -->
+    <button class="btn" type="button" disabled aria-disabled="true" title="订阅暂未开放">立即订阅</button>
   </div>
 
   <div class="pricing-card">
@@ -61,7 +64,10 @@ wide: true
       <li>20 组面板快照 | 一键切换工作方案</li>
       <li>权益永久继承</li>
     </ul>
+    <!-- 暂时屏蔽订阅跳转；恢复时取消原链接注释，并移除下方禁用按钮。
     <a class="btn" href="https://www.kufaka.com/item/5teg75" target="_blank" rel="noopener">立即订阅</a>
+    -->
+    <button class="btn" type="button" disabled aria-disabled="true" title="订阅暂未开放">立即订阅</button>
   </div>
 </div>
 
