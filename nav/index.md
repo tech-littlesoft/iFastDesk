@@ -41,11 +41,15 @@ permalink: /
   <a href="#cat-tool">工具</a>
   <a href="#cat-mail">邮箱</a>
   <a href="#cat-dev">开发者</a>
+  <a href="#cat-docs">编程文档</a>
   <a href="#cat-edu">教育</a>
+  <a href="#cat-reading">阅读</a>
   <a href="#cat-fin">财经</a>
   <a href="#cat-game">游戏</a>
   <a href="#cat-work">AI 办公</a>
   <a href="#cat-life">生活服务</a>
+  <a href="#cat-travel">出行</a>
+  <a href="#cat-jobs">招聘</a>
 </nav>
 
 <section class="nav-feature">
@@ -206,12 +210,20 @@ permalink: /
       <div class="nav-links">
         <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
         <a href="https://stackoverflow.com" target="_blank" rel="noopener">Stack Overflow</a>
-        <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN</a>
         <a href="https://juejin.cn" target="_blank" rel="noopener">掘金</a>
-        <a href="https://www.runoob.com" target="_blank" rel="noopener">菜鸟教程</a>
         <a href="https://www.csdn.net" target="_blank" rel="noopener">CSDN</a>
-        <a href="https://www.w3school.com.cn" target="_blank" rel="noopener">W3School</a>
         <a href="https://gitlab.com" target="_blank" rel="noopener">GitLab</a>
+      </div>
+    </section>
+
+    <section class="nav-card" id="cat-docs">
+      <h3>编程文档</h3>
+      <div class="nav-links">
+        <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN</a>
+        <a href="https://www.runoob.com" target="_blank" rel="noopener">菜鸟教程</a>
+        <a href="https://www.w3school.com.cn" target="_blank" rel="noopener">W3School</a>
+        <a href="https://learn.microsoft.com/zh-cn/" target="_blank" rel="noopener">微软 Learn</a>
+        <a href="https://docs.python.org/zh-cn/3/" target="_blank" rel="noopener">Python 文档</a>
       </div>
     </section>
 
@@ -223,7 +235,16 @@ permalink: /
         <a href="https://www.xuetangx.com" target="_blank" rel="noopener">学堂在线</a>
         <a href="https://www.bilibili.com/v/knowledge" target="_blank" rel="noopener">B 站学习</a>
         <a href="https://www.khanacademy.org" target="_blank" rel="noopener">可汗学院</a>
+      </div>
+    </section>
+
+    <section class="nav-card" id="cat-reading">
+      <h3>阅读与知识</h3>
+      <div class="nav-links">
         <a href="https://weread.qq.com" target="_blank" rel="noopener">微信读书</a>
+        <a href="https://book.douban.com/" target="_blank" rel="noopener">豆瓣读书</a>
+        <a href="https://www.nlc.cn/" target="_blank" rel="noopener">国家图书馆</a>
+        <a href="https://baike.baidu.com/" target="_blank" rel="noopener">百度百科</a>
       </div>
     </section>
 
@@ -247,6 +268,30 @@ permalink: /
         <a href="https://game.163.com" target="_blank" rel="noopener">网易游戏</a>
         <a href="https://www.7k7k.com" target="_blank" rel="noopener">7k7k</a>
         <a href="https://www.gamersky.com" target="_blank" rel="noopener">游民星空</a>
+      </div>
+    </section>
+
+    <section class="nav-card" id="cat-travel">
+      <h3>出行与旅行</h3>
+      <div class="nav-links">
+        <a href="https://map.baidu.com" target="_blank" rel="noopener">百度地图</a>
+        <a href="https://www.didiglobal.com" target="_blank" rel="noopener">滴滴出行</a>
+        <a href="https://www.qunar.com" target="_blank" rel="noopener">去哪儿</a>
+        <a href="https://www.ly.com" target="_blank" rel="noopener">同程旅行</a>
+        <a href="https://www.fliggy.com" target="_blank" rel="noopener">飞猪</a>
+        <a href="https://www.12306.cn/" target="_blank" rel="noopener">铁路 12306</a>
+        <a href="https://www.ctrip.com/" target="_blank" rel="noopener">携程</a>
+      </div>
+    </section>
+
+    <section class="nav-card" id="cat-jobs">
+      <h3>招聘与求职</h3>
+      <div class="nav-links">
+        <a href="https://www.zhipin.com" target="_blank" rel="noopener">BOSS 直聘</a>
+        <a href="https://www.zhaopin.com" target="_blank" rel="noopener">智联招聘</a>
+        <a href="https://www.51job.com" target="_blank" rel="noopener">前程无忧</a>
+        <a href="https://www.liepin.com/" target="_blank" rel="noopener">猎聘</a>
+        <a href="https://www.lagou.com/" target="_blank" rel="noopener">拉勾</a>
       </div>
     </section>
 
@@ -291,18 +336,10 @@ permalink: /
     <section class="nav-card" id="cat-life">
       <h3>生活服务</h3>
       <div class="nav-links">
-        <a href="https://map.baidu.com" target="_blank" rel="noopener">百度地图</a>
-        <a href="https://www.didiglobal.com" target="_blank" rel="noopener">滴滴出行</a>
-        <a href="https://www.qunar.com" target="_blank" rel="noopener">去哪儿</a>
-        <a href="https://www.ly.com" target="_blank" rel="noopener">同程旅行</a>
-        <a href="https://www.fliggy.com" target="_blank" rel="noopener">飞猪</a>
         <a href="https://www.dianping.com" target="_blank" rel="noopener">大众点评</a>
         <a href="https://www.ele.me" target="_blank" rel="noopener">饿了么</a>
         <a href="https://www.ke.com" target="_blank" rel="noopener">贝壳找房</a>
         <a href="https://www.anjuke.com" target="_blank" rel="noopener">安居客</a>
-        <a href="https://www.zhipin.com" target="_blank" rel="noopener">BOSS 直聘</a>
-        <a href="https://www.zhaopin.com" target="_blank" rel="noopener">智联招聘</a>
-        <a href="https://www.51job.com" target="_blank" rel="noopener">前程无忧</a>
         <a href="https://gjzwfw.www.gov.cn" target="_blank" rel="noopener">国家政务服务平台</a>
         <a href="https://www.weather.com.cn" target="_blank" rel="noopener">中国天气网</a>
       </div>
