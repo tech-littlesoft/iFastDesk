@@ -1,6 +1,6 @@
 ---
 layout: nav
-title: iFastDesk 导航 · 小迅桌面站
+title: iFastDesk 小讯云端·网址导航
 permalink: /
 ---
 

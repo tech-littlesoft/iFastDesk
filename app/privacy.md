@@ -1,6 +1,6 @@
 ---
 layout: app
-title: iFastDesk 隐私说明 · Privacy Policy
+title: iFastDesk 小迅桌面站·隐私说明
 toc: true
 ---
 

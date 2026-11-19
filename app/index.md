@@ -1,6 +1,6 @@
 ---
 layout: app
-title: iFastDesk 小迅桌面站 · 产品介绍
+title: iFastDesk 小迅桌面站
 description: 鼠标移到角落，文件、应用与常用文件夹即刻就位。通过真实截图与操作录屏，认识 iFastDesk 小迅桌面站。
 media: true
 product: true

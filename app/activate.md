@@ -1,6 +1,6 @@
 ---
 layout: app
-title: 激活与订阅说明 · Activation
+title: iFastDesk 小迅桌面站·激活与订阅说明
 toc: true
 ---
 

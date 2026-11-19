@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <base href="{{ site.baseurl }}/">
-  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{{ page.title | default: site.title | escape }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}" />
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}" />
   <link rel="stylesheet" href="{{ '/assets/css/nav.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" />
@@ -37,7 +37,7 @@
       <a href="mailto:contact@ifastdesk.com">联系我们</a>
     </div>
     <p>© {{ site.time | date: '%Y' }} iFastDesk · 小讯云端 · 网址导航　|　你的高效上网起点</p>
-    <p class="icp">京 ICP 备 0000000 号　·　本导航仅收录公开常用网站，与所列网站无隶属关系</p>
+    <p class="icp">本导航仅收录公开常用网站，与所列网站无隶属关系</p>
   </footer>
 </body>
 </html>

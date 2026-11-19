@@ -1,6 +1,6 @@
 ---
 layout: app
-title: 用户操作指南 · User Guide
+title: iFastDesk 小迅桌面站·用户指南
 toc: true
 media: true
 description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、处理文件、使用分屏与时光文件。
