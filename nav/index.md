@@ -44,6 +44,8 @@ permalink: /
   <a href="#cat-edu">教育</a>
   <a href="#cat-fin">财经</a>
   <a href="#cat-game">游戏</a>
+  <a href="#cat-work">AI 办公</a>
+  <a href="#cat-life">生活服务</a>
 </nav>
 
 <section class="nav-feature">
@@ -120,6 +122,9 @@ permalink: /
         <a href="https://sspai.com" target="_blank" rel="noopener">少数派</a>
         <a href="https://www.thepaper.cn" target="_blank" rel="noopener">澎湃新闻</a>
         <a href="http://www.news.cn" target="_blank" rel="noopener">新华网</a>
+        <a href="https://www.people.com.cn" target="_blank" rel="noopener">人民网</a>
+        <a href="https://www.cctv.com" target="_blank" rel="noopener">央视网</a>
+        <a href="https://www.ifeng.com" target="_blank" rel="noopener">凤凰网</a>
       </div>
     </section>
 
@@ -134,7 +139,9 @@ permalink: /
         <a href="https://www.vip.com" target="_blank" rel="noopener">唯品会</a>
         <a href="https://www.dangdang.com" target="_blank" rel="noopener">当当网</a>
         <a href="https://www.meituan.com" target="_blank" rel="noopener">美团</a>
-        <a href="https://www.ele.me" target="_blank" rel="noopener">饿了么</a>
+        <a href="https://www.mi.com" target="_blank" rel="noopener">小米商城</a>
+        <a href="https://www.1688.com" target="_blank" rel="noopener">1688</a>
+        <a href="https://you.163.com" target="_blank" rel="noopener">网易严选</a>
       </div>
     </section>
 
@@ -148,6 +155,8 @@ permalink: /
         <a href="https://www.douban.com" target="_blank" rel="noopener">豆瓣</a>
         <a href="https://tieba.baidu.com" target="_blank" rel="noopener">百度贴吧</a>
         <a href="https://www.momo.com" target="_blank" rel="noopener">陌陌</a>
+        <a href="https://www.xiaohongshu.com" target="_blank" rel="noopener">小红书</a>
+        <a href="https://www.hupu.com" target="_blank" rel="noopener">虎扑</a>
       </div>
     </section>
 
@@ -161,6 +170,8 @@ permalink: /
         <a href="https://music.migu.cn" target="_blank" rel="noopener">咪咕音乐</a>
         <a href="https://www.ximalaya.com" target="_blank" rel="noopener">喜马拉雅</a>
         <a href="https://www.qingting.fm" target="_blank" rel="noopener">蜻蜓 FM</a>
+        <a href="https://music.douyin.com" target="_blank" rel="noopener">汽水音乐</a>
+        <a href="https://www.lizhi.fm" target="_blank" rel="noopener">荔枝</a>
       </div>
     </section>
 
@@ -241,8 +252,8 @@ permalink: /
 
   </div>
 
-  <aside class="nav-hotlist">
-    <h3>今日热榜</h3>
+  <aside class="nav-hotlist" aria-labelledby="nav-hot-title">
+    <h3 id="nav-hot-title">今日热榜</h3>
     <ol>
       <li><a href="https://s.weibo.com/top/summary" target="_blank" rel="noopener">微博热搜榜</a></li>
       <li><a href="https://www.zhihu.com/hot" target="_blank" rel="noopener">知乎热榜</a></li>
@@ -255,6 +266,46 @@ permalink: /
     </ol>
     <a class="more" href="https://www.baidu.com/s?wd=热榜" target="_blank" rel="noopener">查看更多热榜 ›</a>
   </aside>
+
+  <section class="nav-card nav-side-card nav-side-work" id="cat-work">
+    <h3>AI 与办公</h3>
+    <div class="nav-links">
+      <a href="https://www.doubao.com" target="_blank" rel="noopener">豆包</a>
+      <a href="https://chat.deepseek.com" target="_blank" rel="noopener">DeepSeek</a>
+      <a href="https://www.qianwen.com" target="_blank" rel="noopener">千问</a>
+      <a href="https://yuanbao.tencent.com" target="_blank" rel="noopener">腾讯元宝</a>
+      <a href="https://www.kimi.com" target="_blank" rel="noopener">Kimi</a>
+      <a href="https://www.wps.cn" target="_blank" rel="noopener">WPS</a>
+      <a href="https://www.feishu.cn" target="_blank" rel="noopener">飞书</a>
+      <a href="https://www.dingtalk.com" target="_blank" rel="noopener">钉钉</a>
+      <a href="https://docs.qq.com" target="_blank" rel="noopener">腾讯文档</a>
+      <a href="https://shimo.im" target="_blank" rel="noopener">石墨文档</a>
+      <a href="https://pan.baidu.com" target="_blank" rel="noopener">百度网盘</a>
+      <a href="https://www.alipan.com" target="_blank" rel="noopener">阿里云盘</a>
+      <a href="https://pan.quark.cn" target="_blank" rel="noopener">夸克网盘</a>
+      <a href="https://www.kdocs.cn" target="_blank" rel="noopener">金山文档</a>
+    </div>
+  </section>
+
+  <section class="nav-card nav-side-card nav-side-life" id="cat-life">
+    <h3>生活服务</h3>
+    <div class="nav-links">
+      <a href="https://map.baidu.com" target="_blank" rel="noopener">百度地图</a>
+      <a href="https://www.didiglobal.com" target="_blank" rel="noopener">滴滴出行</a>
+      <a href="https://www.qunar.com" target="_blank" rel="noopener">去哪儿</a>
+      <a href="https://www.ly.com" target="_blank" rel="noopener">同程旅行</a>
+      <a href="https://www.fliggy.com" target="_blank" rel="noopener">飞猪</a>
+      <a href="https://www.dianping.com" target="_blank" rel="noopener">大众点评</a>
+      <a href="https://www.ele.me" target="_blank" rel="noopener">饿了么</a>
+      <a href="https://www.ke.com" target="_blank" rel="noopener">贝壳找房</a>
+      <a href="https://www.anjuke.com" target="_blank" rel="noopener">安居客</a>
+      <a href="https://www.zhipin.com" target="_blank" rel="noopener">BOSS 直聘</a>
+      <a href="https://www.zhaopin.com" target="_blank" rel="noopener">智联招聘</a>
+      <a href="https://www.51job.com" target="_blank" rel="noopener">前程无忧</a>
+      <a href="https://gjzwfw.www.gov.cn" target="_blank" rel="noopener">国家政务服务平台</a>
+      <a href="https://www.weather.com.cn" target="_blank" rel="noopener">中国天气网</a>
+    </div>
+  </section>
 </div>
 
 <script>

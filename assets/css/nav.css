@@ -1,14 +1,15 @@
 /* ===== iFastDesk 导航站（独立模块，不复用产品站 style.css） ===== */
 :root {
-  --nav-bg:#faf7f2;
+  color-scheme:light;
+  --nav-bg:#ffffff;
   --nav-ink:#2b2b2b;
-  --nav-muted:#8a8378;
-  --nav-line:#ece5da;
-  --nav-accent:#e8632b;
-  --nav-accent-2:#f0833f;
+  --nav-muted:#626e7b;
+  --nav-line:#e0e5eb;
+  --nav-accent:#087751;
+  --nav-accent-2:#0a8059;
   --nav-card:#ffffff;
-  --nav-card-2:#fff6ee;
-  --nav-shadow:0 2px 12px rgba(0,0,0,.05);
+  --nav-card-2:#f1f7f5;
+  --nav-shadow:none;
 }
 * { box-sizing:border-box; }
 html, body { margin:0; }
@@ -18,6 +19,8 @@ body.nav-page {
   -webkit-font-smoothing:antialiased;
 }
 body.nav-page a { color:var(--nav-ink); text-decoration:none; }
+body.nav-page :is(.nav-bar-cta,.btn-primary) { color:#fff; }
+.nav-page a:focus-visible { outline:2px solid var(--nav-accent); outline-offset:2px; }
 
 /* 顶部条 */
 .nav-bar {
@@ -75,8 +78,8 @@ body.nav-page a { color:var(--nav-ink); text-decoration:none; }
 /* 产品主打 banner */
 .nav-feature {
   display:grid; grid-template-columns:1.45fr 1fr; gap:28px; align-items:center;
-  margin:22px 0 30px; padding:26px; background:linear-gradient(120deg,var(--nav-card-2),var(--nav-card));
-  border:1px solid var(--nav-line); border-radius:20px; box-shadow:var(--nav-shadow);
+  margin:22px 0 30px; padding:26px; background:var(--nav-card);
+  border:1px solid var(--nav-line); border-radius:8px; box-shadow:var(--nav-shadow);
 }
 .nav-feature .tag {
   display:inline-block; font-size:12px; font-weight:700; color:#fff; background:var(--nav-accent);
@@ -96,24 +99,28 @@ body.nav-page a { color:var(--nav-ink); text-decoration:none; }
 .nav-feature-media img { width:100%; height:auto; border-radius:14px; border:1px solid var(--nav-line); background:#fff; }
 
 /* 主体两栏：分类墙 + 热榜 */
-.nav-body { display:grid; grid-template-columns:1fr 300px; gap:24px; align-items:start; }
+.nav-body { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)) minmax(225px,.72fr); gap:12px; }
 
-/* 分类卡片墙 */
-.nav-cat-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:16px; }
-.nav-card { background:var(--nav-card); border:1px solid var(--nav-line); border-radius:16px; padding:16px 18px; box-shadow:var(--nav-shadow); }
-.nav-card h3 { margin:0 0 12px; font-size:15px; font-weight:800; color:var(--nav-accent); border-left:4px solid var(--nav-accent); padding-left:10px; }
-.nav-links { display:flex; flex-wrap:wrap; gap:8px 14px; }
+/* 分类卡片与右栏共享网格行，保持上下边缘对齐。 */
+.nav-cat-grid { display:contents; }
+.nav-card { min-width:0; scroll-margin-top:130px; background:var(--nav-card); border:1px solid var(--nav-line); border-radius:8px; padding:14px 16px; box-shadow:var(--nav-shadow); }
+.nav-card h3 { margin:0 0 12px; font-size:15px; font-weight:800; color:var(--nav-accent); border-left:3px solid #c9dfd5; padding-left:10px; }
+.nav-links { display:flex; flex-wrap:wrap; gap:6px 15px; }
 .nav-links a { font-size:14px; color:var(--nav-ink); }
 .nav-links a:hover { color:var(--nav-accent); text-decoration:underline; }
 
+.nav-side-card { grid-column:3; }
+.nav-side-work { grid-row:3 / span 2; }
+.nav-side-life { grid-row:5 / span 2; }
+
 /* 今日热榜 */
 .nav-hotlist {
-  position:sticky; top:112px; background:var(--nav-card); border:1px solid var(--nav-line);
-  border-radius:16px; padding:16px 18px; box-shadow:var(--nav-shadow);
+  grid-column:3; grid-row:1 / span 2; display:flex; flex-direction:column; background:var(--nav-card); border:1px solid var(--nav-line);
+  border-radius:8px; padding:14px 16px; box-shadow:var(--nav-shadow);
 }
-.nav-hotlist h3 { margin:0 0 12px; font-size:15px; font-weight:800; color:var(--nav-accent); border-left:4px solid var(--nav-accent); padding-left:10px; }
+.nav-hotlist h3 { margin:0 0 12px; font-size:15px; font-weight:800; color:var(--nav-accent); border-left:3px solid #c9dfd5; padding-left:10px; }
 .nav-hotlist ol { margin:0; padding:0; list-style:none; counter-reset:hot; }
-.nav-hotlist li { counter-increment:hot; display:flex; gap:10px; align-items:baseline; padding:8px 0; border-bottom:1px dashed var(--nav-line); font-size:14px; }
+.nav-hotlist li { counter-increment:hot; display:flex; gap:10px; align-items:baseline; padding:4px 0; border-bottom:1px solid var(--nav-line); font-size:14px; }
 .nav-hotlist li:last-child { border-bottom:none; }
 .nav-hotlist li::before {
   content:counter(hot); flex:0 0 20px; height:20px; border-radius:6px;
@@ -123,7 +130,7 @@ body.nav-page a { color:var(--nav-ink); text-decoration:none; }
 .nav-hotlist li:nth-child(-n+3)::before { background:var(--nav-accent); color:#fff; }
 .nav-hotlist li a { color:var(--nav-ink); }
 .nav-hotlist li a:hover { color:var(--nav-accent); }
-.nav-hotlist .more { display:inline-block; margin-top:12px; font-size:13px; color:var(--nav-muted); }
+.nav-hotlist .more { display:inline-block; align-self:flex-start; margin-top:auto; padding-top:8px; font-size:13px; color:var(--nav-muted); }
 .nav-hotlist .more:hover { color:var(--nav-accent); }
 
 /* 底部 */
@@ -136,8 +143,9 @@ body.nav-page a { color:var(--nav-ink); text-decoration:none; }
 
 /* 响应式 */
 @media (max-width:980px){
-  .nav-body { grid-template-columns:1fr; }
-  .nav-hotlist { position:static; }
+  .nav-body { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .nav-hotlist, .nav-side-card { grid-column:auto; grid-row:auto; }
+  .nav-hotlist { grid-column:1 / -1; }
   .nav-feature { grid-template-columns:1fr; }
   .nav-feature-media { order:-1; }
 }
@@ -151,13 +159,7 @@ body.nav-page a { color:var(--nav-ink); text-decoration:none; }
   .nav-main { padding:0 16px 50px; }
   .nav-feature ul { grid-template-columns:1fr; }
 }
-@media (prefers-color-scheme: dark){
-  :root {
-    --nav-bg:#161412; --nav-ink:#ececec; --nav-muted:#9a9186; --nav-line:#2c2823;
-    --nav-accent:#ff7a45; --nav-accent-2:#ff9466; --nav-card:#1f1b18; --nav-card-2:#241f1b;
-    --nav-shadow:0 2px 12px rgba(0,0,0,.3);
-  }
-  .nav-bar { background:rgba(22,20,18,0.9); }
-  .nav-cats { background:var(--nav-bg); }
-  .nav-feature-media img, .nav-card, .nav-hotlist { background:var(--nav-card); }
+
+@media (max-width:540px){
+  .nav-body { grid-template-columns:minmax(0,1fr); }
 }
