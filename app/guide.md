@@ -15,7 +15,7 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 <h2 id="first-launch">1. 安装与首次启动 <span class="en">Install &amp; First Launch</span></h2>
 
 <p class="zh">在微软应用商店完成安装后启动 iFastDesk。<a href="{{ site.microsoft_store_url }}?hl=zh-CN&amp;gl=US" hreflang="zh-CN">前往微软官网下载安装</a>。先确认工作台能够正常显示，再设置常用文件夹。默认触发位置为屏幕左下角，后续可在主菜单中调整。</p>
-<p class="en">Install iFastDesk from the Microsoft Store and launch it. Check that the workspace appears, then set up your folders. The default hot corner is the bottom-left corner of your screen.</p>
+<p class="en" lang="en">Install iFastDesk from the Microsoft Store and launch it. <a href="{{ site.microsoft_store_url }}?hl=en-US&amp;gl=US" hreflang="en-US">Download and install from the Microsoft Store</a>. Check that the workspace appears, then set up your folders. The default hot corner is the bottom-left corner of your screen.</p>
 
 {% include app-image.html id="desktop-light" hero=true alt="iFastDesk 浅色主题在 Windows 桌面上的实际显示效果" caption="浅色桌面全景" ref="G01" %}
 
