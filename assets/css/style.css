@@ -14,12 +14,12 @@ img { max-width:100%; height:auto; }
 .brand-text { display:flex; flex-direction:column; line-height:1.15; }
 .brand-name { font-size:18px; font-weight:700; letter-spacing:0.2px; }
 .brand-sub { font-size:11px; color:var(--muted); margin-top:3px; }
-.store-download { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
-.store-download a { display:inline-flex; align-items:center; min-height:36px; padding:6px 12px; border-radius:8px; background:var(--brand); color:#fff; font-size:13px; font-weight:650; line-height:1.35; text-decoration:none; }
+.store-download { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; width:fit-content; max-width:100%; }
+.store-download a { display:grid; place-items:center; min-height:44px; padding:6px 12px; border-radius:8px; background:var(--brand); color:#fff; font-size:13px; font-weight:650; line-height:1.35; text-align:center; text-decoration:none; }
 .store-download a:hover { background:var(--brand-strong); }
-.page > .store-download { margin:18px 0 0; }
-.page > .store-download a { min-height:42px; padding:8px 16px; font-size:14px; }
-@media (min-width:1120px) {
+.page > .store-download { margin:18px 0 clamp(28px,4vw,48px); }
+.page > .store-download a { min-height:48px; padding:8px 16px; font-size:14px; }
+@media (min-width:1160px) {
   .topbar { display:grid; grid-template-columns:auto minmax(0,1fr) 50%; gap:0; }
   .topbar > .store-download { justify-self:end; padding-inline-start:24px; }
 }
@@ -282,6 +282,7 @@ body.media-page .site-footer { max-width:1500px; }
 .product-page .product-highlights li .zh { margin:0; font-size:15px; }
 .product-page .product-highlights li .en { margin-top:7px; line-height:1.6; }
 .product-feature { padding:44px 0 48px; border-top:1px solid var(--line); }
+.store-download + .product-feature { padding-top:clamp(38px,5vw,56px); }
 .product-feature h2 { margin:0 0 16px; padding:0; border:0; font-size:clamp(23px,2.4vw,30px); line-height:1.4; color:var(--ink); }
 .feature-number { display:block; margin-bottom:10px; color:var(--brand); font-size:12px; font-weight:700; letter-spacing:2px; }
 .product-feature h2 .en { margin-top:8px; font-size:14px; }
