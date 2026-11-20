@@ -58,11 +58,6 @@ product: true
 
 {% include store-download.html %}
 
-<div class="product-actions">
-  <a href="{{ '/app/guide/' | relative_url }}">看操作指南 →</a>
-  <a href="{{ '/app/buy/' | relative_url }}">了解基础版与 Pro</a>
-</div>
-
 <section class="product-feature" aria-labelledby="feature-1">
 <h2 id="feature-1"><span class="feature-number">01</span>呼之即出，挥之即去 <span class="en">There when you need it</span></h2>
 
