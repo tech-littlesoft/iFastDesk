@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <title>{{ page.title | escape }}</title>
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/directory.css' | relative_url }}">
+  <script src="{{ '/assets/js/directory.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <header class="directory-header">
+    <a href="{{ '/' | relative_url }}">iFastDesk 小讯云端</a>
+    <a href="{{ '/app/' | relative_url }}">小迅桌面站</a>
+  </header>
+  <main>{{ content }}</main>
+  <footer class="directory-footer"><a href="#start">回到顶部</a> <a href="{{ '/' | relative_url }}">返回导航首页</a></footer>
+</body>
+</html>

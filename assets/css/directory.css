@@ -1,0 +1,59 @@
+:root {
+  color-scheme: light;
+  font: 16px/1.6 "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: #18273a;
+  background: #f6f8fc;
+  --blue: #25498c;
+  --line: #dce5f1;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: var(--blue); }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid #315bb2; outline-offset: 3px; }
+.directory-header, .directory-footer {
+  display: flex; justify-content: space-between; gap: 16px;
+  padding: 14px max(20px, calc((100% - 1120px) / 2)); background: white;
+}
+.directory-header { border-bottom: 1px solid var(--line); font-weight: 700; }
+.directory-footer { border-top: 1px solid var(--line); }
+main { max-width: 1160px; padding: 0 20px; margin: auto; }
+.directory-index {
+  position: sticky; top: 0; z-index: 2; display: flex; gap: 8px;
+  overflow-x: auto; padding: 12px 3px; background: #f6f8fc;
+  border-bottom: 1px solid var(--line);
+}
+.directory-index a {
+  flex: none; padding: 5px 12px; border: 1px solid var(--line);
+  border-radius: 6px; text-decoration: none; background: white;
+}
+.directory-screen {
+  min-height: calc(100svh - 65px); padding: clamp(28px, 5vw, 80px) 0;
+  border-bottom: 1px solid var(--line); scroll-margin-top: 65px;
+}
+.directory-screen h1, .directory-screen h2 { margin: 0; font-size: clamp(30px, 5vw, 52px); line-height: 1.2; }
+.directory-intro { margin: 12px 0 24px; color: #495973; }
+.directory-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: 16px; }
+.directory-card { background: white; border: 1px solid var(--line); border-top: 3px solid #adc4eb; border-radius: 10px; padding: 20px; }
+.directory-card h3 { margin: 0 0 12px; }
+.directory-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.directory-links a { padding: 6px 8px; border-radius: 6px; text-decoration: none; overflow-wrap: anywhere; }
+.directory-links a:hover { background: #edf3fc; text-decoration: underline; }
+.directory-web-search, .directory-filter { max-width: 620px; margin-bottom: 16px; }
+.directory-web-search label, .directory-filter label { display: block; font-weight: 600; margin-bottom: 4px; }
+.directory-web-search div { display: flex; gap: 8px; }
+.directory-web-search input, .directory-filter input {
+  min-width: 0; width: 100%; padding: 10px 12px; color: inherit; background: white;
+  border: 1px solid #b7c8e1; border-radius: 6px; font: inherit;
+}
+.directory-web-search button {
+  flex: none; padding: 0 14px; border: 0; border-radius: 6px;
+  font: inherit; color: white; background: var(--blue); cursor: pointer;
+}
+#directory-feedback { margin: 4px 0; color: #495973; }
+.directory-filtering .directory-screen { min-height: auto; }
+@media (max-width: 620px) {
+  main { padding: 0 14px; }
+  .directory-screen { min-height: auto; padding: 28px 0; }
+}
