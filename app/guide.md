@@ -189,7 +189,7 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
   </li>
   <li>
     <b>离线激活 Pro</b>
-    <p class="zh">Pro 通过离线激活码开启，不连接任何服务器，隐私零外泄。激活步骤详见 <a href="{{ '/app/activate/' | relative_url }}">激活与订阅</a>。</p>
+    <p class="zh">Pro 通过离线激活码开启，不连接任何服务器，隐私零外泄。激活步骤详见 <a href="{{ '/app/activate/' | relative_url }}">激活与订阅说明</a>。</p>
     <p class="en">Pro unlocks via an offline activation code — no server contact, nothing leaves your machine. See <a href="{{ '/app/activate/' | relative_url }}">Activation</a> for the steps.</p>
   </li>
 </ul>

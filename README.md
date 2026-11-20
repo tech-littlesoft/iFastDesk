@@ -37,7 +37,7 @@ Every page is independently addressable. The left sidebar highlights the current
 │   ├── index.md           # 产品介绍          ->  /app/
 │   ├── guide.md           # 用户操作指南      ->  /app/guide/
 │   ├── buy.md             # 升级 Pro          ->  /app/buy/
-│   ├── activate.md        # 激活与订阅        ->  /app/activate/
+│   ├── activate.md        # 激活与订阅说明        ->  /app/activate/
 │   └── privacy.md         # 隐私说明          ->  /app/privacy/
 ├── nav/                   # 导航站（模块二，独立风格）
 │   └── index.md           # 导航主页          ->  /
