@@ -18,7 +18,7 @@
         <span class="brand-sub">小迅桌面站 · 悬浮桌面</span>
       </span>
     </a>
-    <a class="topbar-cta" href="{{ '/app/buy/' | relative_url }}">获取 Pro</a>
+    {% include store-download.html %}
   </header>
 
   <div class="layout{% if page.toc %} has-toc{% endif %}{% if page.wide %} is-wide{% endif %}{% if page.media %} media-layout{% endif %}">

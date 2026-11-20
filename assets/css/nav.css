@@ -20,7 +20,7 @@ body.nav-page {
   -webkit-font-smoothing:antialiased;
 }
 body.nav-page a { color:var(--nav-ink); text-decoration:none; }
-body.nav-page :is(.nav-bar-cta,.btn-primary) { color:var(--nav-ink); }
+body.nav-page .btn-primary { color:var(--nav-ink); }
 .nav-page a:focus-visible { outline:2px solid var(--nav-green-line); outline-offset:2px; }
 
 /* 顶部条 */
@@ -35,11 +35,6 @@ body.nav-page :is(.nav-bar-cta,.btn-primary) { color:var(--nav-ink); }
 .nav-logo-text { display:flex; flex-direction:column; line-height:1.15; }
 .nav-logo-name { font-size:18px; font-weight:800; letter-spacing:.3px; }
 .nav-logo-sub { font-size:11px; color:var(--nav-muted); }
-.nav-bar-cta {
-  font-size:13px; font-weight:700; padding:7px 16px; border-radius:999px;
-  background:var(--nav-accent); color:var(--nav-ink);
-}
-.nav-bar-cta:hover { background:var(--nav-accent-2); }
 
 /* 主区域容器 */
 .nav-main { max-width:1200px; margin:0 auto; padding:0 20px 60px; }

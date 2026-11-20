@@ -72,6 +72,6 @@ toc: true
 
 ## 11. 联系方式 <span class="en">Contact</span>
 
-<p class="zh">如对本说明有疑问，请发邮件至 <a href="mailto:contact@ifastdesk.com">contact@ifastdesk.com</a>。</p>
+<p class="zh">如对本说明有疑问，请发邮件至 <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>。</p>
 
-<p class="en">For questions about this policy, email <a href="mailto:contact@ifastdesk.com">contact@ifastdesk.com</a>.</p>
+<p class="en">For questions about this policy, email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p>

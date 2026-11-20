@@ -38,8 +38,8 @@ toc: true
 
 ### 4. 查看认证结果 <span class="en">Check the result</span>
 
-<p class="zh">认证通过后，「目前版本」显示 Pro 专业正式版授权。若提示无效，请检查是否复制了完整激活码，以及它是否对应当前设备。仍无法激活时，可联系 <a href="mailto:contact@ifastdesk.com">contact@ifastdesk.com</a>。</p>
-<p class="en">When verification succeeds, the current edition shows a Pro license. If the code fails, check that you pasted it in full and that it was issued for this device. For help, email <a href="mailto:contact@ifastdesk.com">contact@ifastdesk.com</a>.</p>
+<p class="zh">认证通过后，「目前版本」显示 Pro 专业正式版授权。若提示无效，请检查是否复制了完整激活码，以及它是否对应当前设备。仍无法激活时，可联系 <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>。</p>
+<p class="en">When verification succeeds, the current edition shows a Pro license. If the code fails, check that you pasted it in full and that it was issued for this device. For help, email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p>
 
 ## 常见问题 <span class="en">FAQ</span>
 

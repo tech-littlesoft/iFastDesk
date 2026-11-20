@@ -56,8 +56,10 @@ product: true
 
 <!-- store-description:end — 以下第 1–8 章仅用于网站，不同步到微软应用商店。 -->
 
+{% include store-download.html %}
+
 <div class="product-actions">
-  <a class="primary" href="{{ '/app/guide/' | relative_url }}">看操作指南 →</a>
+  <a href="{{ '/app/guide/' | relative_url }}">看操作指南 →</a>
   <a href="{{ '/app/buy/' | relative_url }}">了解基础版与 Pro</a>
 </div>
 

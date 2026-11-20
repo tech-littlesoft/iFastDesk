@@ -18,7 +18,6 @@
         <span class="nav-logo-sub">小讯云端 · 网址导航</span>
       </span>
     </a>
-    <a class="nav-bar-cta" href="{{ '/app/buy/' | relative_url }}">获取 Pro</a>
   </header>
 
   <main class="nav-main">
@@ -32,9 +31,9 @@
       <a href="{{ '/app/buy/' | relative_url }}">升级 Pro</a>
       <a href="{{ '/app/guide/' | relative_url }}">使用指南</a>
       <a href="{{ '/app/privacy/' | relative_url }}">隐私说明</a>
-      <a href="mailto:links@ifastdesk.com">友情链接</a>
-      <a href="mailto:submit@ifastdesk.com">网站收录</a>
-      <a href="mailto:contact@ifastdesk.com">联系我们</a>
+      <a href="mailto:{{ site.contact_email }}?subject={{ '友情链接' | uri_escape }}">友情链接</a>
+      <a href="mailto:{{ site.contact_email }}?subject={{ '网站收录' | uri_escape }}">网站收录</a>
+      <a href="mailto:{{ site.contact_email }}">联系我们</a>
     </div>
     <p>© {{ site.time | date: '%Y' }} iFastDesk · 小讯云端 · 网址导航　|　你的高效上网起点</p>
     <p class="icp">本导航仅收录公开常用网站，与所列网站无隶属关系</p>
