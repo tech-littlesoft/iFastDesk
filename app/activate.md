@@ -7,7 +7,7 @@ toc: true
 # 激活与订阅说明 <span class="en">Activation &amp; Subscription</span>
 
 <p class="lead">在需要激活的 Windows 设备上打开 iFastDesk，用收到的离线激活码解锁 Pro。</p>
-<p class="en">Open iFastDesk on the Windows device you want to activate and use the offline activation code issued for that device.</p>
+<p class="en">Open iFastDesk on the Windows device you want to activate and enter the offline activation code you received.</p>
 
 ## 如何激活 Pro <span class="en">Activate Pro</span>
 
@@ -16,20 +16,15 @@ toc: true
 <p class="zh">呼出桌面工作台，点击右上角的主菜单，选择「升级Pro专业正式版」。也可右键点击系统托盘中的 iFastDesk 图标，选择同一菜单项。</p>
 <p class="en">Open the workspace, open its top-right menu, and choose the Pro upgrade entry. The same entry is available from the iFastDesk system tray menu.</p>
 
-### 2. 复制本设备 ID <span class="en">Copy your device ID</span>
+### 2. 订阅 Pro，获取验证码 <span class="en" lang="en">Subscribe to Pro and get your code</span>
 
-<p class="zh">在升级窗口找到「本设备 ID」，点击右侧的「复制」。按订单指引提供该 ID，以取得与此设备匹配的激活码。</p>
-<p class="en">Click Copy next to the device ID. Follow the order instructions to provide it and obtain the activation code for this device.</p>
-
-<figure>
-  <img src="{{ '/assets/media/app/activation-device-id.webp' | relative_url }}" alt="本设备 ID 右侧的复制按钮" width="376" height="65" loading="lazy" decoding="async" style="max-width:376px">
-  <figcaption>本设备 ID · 复制（ID 已遮盖）</figcaption>
-</figure>
+<p class="zh">打开官网的<a href="{{ '/app/buy/' | relative_url }}">升级 Pro 页面</a>，选择一年或三年方案，点击「立即订阅」。进入库发卡收银台后，用手机扫描付款二维码并完成支付。付款成功后，复制收到的验证码。</p>
+<p class="en" lang="en">Open the <a href="{{ '/app/buy/' | relative_url }}">Upgrade to Pro page</a>, choose the one-year or three-year plan, and click Subscribe now. At the Kufaka checkout, scan the payment QR code with your phone and complete the payment. Once payment succeeds, copy the code you receive.</p>
 
 ### 3. 粘贴激活码，点击「认证」 <span class="en">Paste the code and verify</span>
 
-<p class="zh">收到激活码后，将完整内容粘贴到「输入激活码」下方的文本框，点击「认证」。</p>
-<p class="en">Paste the full activation code into the activation field, then click Verify.</p>
+<p class="zh">返回 iFastDesk 升级窗口，将收到的验证码完整粘贴到「输入激活码」下方的文本框，然后点击「认证」。</p>
+<p class="en">Return to the iFastDesk upgrade window, paste the full code into the activation field, and click Verify.</p>
 
 <figure>
   <img src="{{ '/assets/media/app/activation-code.webp' | relative_url }}" alt="激活码输入框和下方的认证按钮" width="600" height="184" loading="lazy" decoding="async" style="max-width:600px">
@@ -38,8 +33,8 @@ toc: true
 
 ### 4. 查看认证结果 <span class="en">Check the result</span>
 
-<p class="zh">认证通过后，「目前版本」显示 Pro 专业正式版授权。若提示无效，请检查是否复制了完整激活码，以及它是否对应当前设备。仍无法激活时，可联系 <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>。</p>
-<p class="en">When verification succeeds, the current edition shows a Pro license. If the code fails, check that you pasted it in full and that it was issued for this device. For help, email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p>
+<p class="zh">认证通过后，「目前版本」显示 Pro 专业正式版授权。若提示无效，请检查是否粘贴了完整的验证码。仍无法激活时，可联系 <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>。</p>
+<p class="en">When verification succeeds, the current edition shows a Pro license. If the code fails, check that you pasted it in full. For help, email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p>
 
 ## 常见问题 <span class="en">FAQ</span>
 

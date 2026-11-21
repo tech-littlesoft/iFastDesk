@@ -36,9 +36,9 @@ toc: true
 
 ## 5. 授权与激活 <span class="en">License and Activation</span>
 
-<p class="zh">iFastDesk 的基础功能免费，部分高级功能（Pro）通过离线激活码开启。激活验证在你的设备本地通过数字签名完成，不连接任何远程服务器，也不会上传硬件信息或机器指纹。激活状态仅保存在本机。应用内"升级 Pro"按钮在你主动点击时，才会打开外部购买网页（由你自行决定是否访问），该过程不会自动上传任何数据；如需取得激活码，请按订单指引主动提供设备 ID。任何付款均由该外部服务商处理，我们不会接收或保存你的支付信息。</p>
+<p class="zh">iFastDesk 的基础功能免费，部分高级功能（Pro）通过离线激活码开启。激活验证在你的设备本地通过数字签名完成，不连接任何远程服务器，也不会上传硬件信息或机器指纹。激活状态仅保存在本机。应用内"升级 Pro"按钮在你主动点击时，才会打开外部购买网页（由你自行决定是否访问），该过程不会自动上传任何数据。任何付款均由该外部服务商处理，我们不会接收或保存你的支付信息。</p>
 
-<p class="en">iFastDesk's basic features are free; some advanced (Pro) features are unlocked with an offline activation code. Activation is verified locally on your device through a digital signature—no remote server is contacted and no hardware information or machine fingerprint is uploaded. Activation state is stored only on your device. The in-app "Upgrade to Pro" button opens an external purchase webpage only when you click it voluntarily; no data is uploaded automatically in this process. To obtain an activation code, follow the order instructions to provide your device ID. Any payment is handled by that external provider; we do not receive or store your payment details.</p>
+<p class="en">iFastDesk's basic features are free; some advanced (Pro) features are unlocked with an offline activation code. Activation is verified locally on your device through a digital signature—no remote server is contacted and no hardware information or machine fingerprint is uploaded. Activation state is stored only on your device. The in-app "Upgrade to Pro" button opens an external purchase webpage only when you click it voluntarily; no data is uploaded automatically in this process. Any payment is handled by that external provider; we do not receive or store your payment details.</p>
 
 ## 6. 数据存储与安全 <span class="en">Data Storage and Security</span>
 
