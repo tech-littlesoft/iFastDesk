@@ -6,7 +6,7 @@ wide: true
 
 # 升级 Pro <span class="en" lang="en">Upgrade to Pro</span>
 
-<p class="lead">一杯咖啡的价钱，换一整年顺手的桌面效率。基础版永久免费，Pro 官方限时补贴中。</p>
+<p class="lead">一杯咖啡的价钱，换一整年顺手的桌面效率。基础版永久免费，Pro 版官方限时补贴中。</p>
 <p class="en" lang="en">A year of smoother desktop workflows for the price of a coffee. Basic is free forever. Pro is available at a limited-time discount.</p>
 
 <div class="pricing-grid">
