@@ -61,9 +61,9 @@ permalink: /
       <li>悬浮呼出，零点击常驻</li>
       <li>3×3 卡片面板，自由定制</li>
       <li>原生文件操作，拖拽即复制移动</li>
-      <li>秒进分屏，整理像翻书</li>
+      <li>秒进分屏，一切均在当前窗口内整理</li>
       <li>时光收纳，文件按时自动归集</li>
-      <li>离线激活，隐私零外泄</li>
+      <li>图标管理, 图标自由排序</li>
     </ul>
     <div class="nav-feature-cta">
       <a class="btn-primary" href="{{ '/app/' | relative_url }}">免费下载</a>
