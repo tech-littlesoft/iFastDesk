@@ -3,12 +3,12 @@ layout: app
 title: iFastDesk 小迅桌面站·用户指南
 toc: true
 media: true
-description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、处理文件、使用分屏与时光文件。
+description: iFastDesk 小讯桌面站用户指南。跟着实机录屏设置桌面卡片、整理 Windows 文件和文件夹，并用启动器打开常用应用。
 ---
 
 # 用户操作指南 <span class="en">User Guide · Get Started in 5 Minutes</span>
 
-<p class="lead">5 分钟把 iFastDesk 用到最顺手——从安装、呼出，到拖动换位、分屏、时光文件，一步步带你走完。</p>
+<p class="lead">用 5 分钟完成 iFastDesk 的桌面整理设置。跟着录屏安装软件、设置文件夹卡片、使用分屏和时光文件，再用启动器打开常用应用。</p>
 
 <p class="en lead">Everything from install and summon to rearranging, split view and time-based filing — a complete walkthrough.</p>
 
@@ -116,7 +116,7 @@ description: 跟着真实操作录屏，逐步设置文件夹、调整卡片、�
 {% include app-image.html id="cards-dark-nine" alt="深色九宫格主界面" caption="深色九宫格" sizes="(max-width: 540px) calc(100vw - 32px), (max-width: 820px) calc((100vw - 44px) / 2), 540px" ref="G11" %}
 </div>
 
-<h2 id="app-sort">9. 应用排序与完整演示 <span class="en">App Order &amp; Full Walkthrough</span></h2>
+<h2 id="app-sort">9. 启动器应用排序与完整演示 <span class="en">Launcher App Order &amp; Full Walkthrough</span></h2>
 
 <h3>调整常用应用的顺序 <span class="en">Arrange Your App Icons</span></h3>
 

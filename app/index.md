@@ -1,7 +1,7 @@
 ---
 layout: app
 title: iFastDesk 小迅桌面站
-description: 鼠标移到角落，文件、应用与常用文件夹即刻就位。通过真实截图与操作录屏，认识 iFastDesk 小迅桌面站。
+description: iFastDesk 小讯桌面站是一款 Windows 桌面整理与办公效率工具，集桌面启动器（Launcher）、文件卡片与分屏于一体。
 media: true
 product: true
 ---
@@ -61,8 +61,8 @@ product: true
 <section class="product-feature" aria-labelledby="feature-1">
 <h2 id="feature-1"><span class="feature-number">01</span>呼之即出，挥之即去 <span class="en">There when you need it</span></h2>
 
-<p class="zh">工作台不必一直占着桌面。鼠标移到触发角，文件和应用从屏幕边缘滑出；继续工作时，它又自然收起。无需点击，也无需记住一组快捷键。</p>
-<p class="en">Bring files and apps into view with a hover, then let the panel slip away when you return to work. No click, no hotkey to remember.</p>
+<p class="zh">iFastDesk 小讯桌面站把桌面整理和应用启动放在一处。鼠标移到触发角，悬浮工作台即刻滑出。用文件卡片整理工作资料，用桌面启动器（Launcher）打开常用应用，移开鼠标就能收起。</p>
+<p class="en">Turn the edge of your screen into a digital desk. Hover over a corner to organize files in floating cards and open your favorite apps with the desktop launcher. Move the pointer away to hide the workspace.</p>
 
 {% include app-video.html id="show-hide" loop=true title="鼠标移入移出，呼出与收起悬浮桌面" caption="呼出与收起" ref="A07" %}
 </section>
