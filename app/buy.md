@@ -1,6 +1,6 @@
 ---
 layout: app
-title: iFastDesk 小迅桌面站·升级 Pro
+title: iFastDesk 小讯桌面站·升级 Pro
 wide: true
 ---
 

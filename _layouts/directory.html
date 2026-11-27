@@ -12,7 +12,7 @@
 <body>
   <header class="directory-header">
     <a href="{{ '/' | relative_url }}">iFastDesk 小讯云端</a>
-    <a href="{{ '/app/' | relative_url }}">小迅桌面站</a>
+    <a href="{{ '/app/' | relative_url }}">{{ site.title | escape }}</a>
   </header>
   <main>{{ content }}</main>
   <footer class="directory-footer"><a href="#start">回到顶部</a> <a href="{{ '/' | relative_url }}">返回导航首页</a></footer>

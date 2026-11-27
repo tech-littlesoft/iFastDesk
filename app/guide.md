@@ -1,14 +1,14 @@
 ---
 layout: app
-title: iFastDesk 小迅桌面站·用户指南
+title: iFastDesk 小讯桌面站·用户指南
 toc: true
 media: true
-description: iFastDesk 小讯桌面站用户指南。跟着实机录屏设置桌面卡片、整理 Windows 文件和文件夹，并用启动器打开常用应用。
+description: iFastDesk 小讯桌面站用户指南。从微软应用商店安装后，跟着实机录屏把常用文件夹固定到桌面卡片、使用分屏并设置桌面启动器。
 ---
 
-# 用户操作指南 <span class="en">User Guide · Get Started in 5 Minutes</span>
+# iFastDesk 小讯桌面站用户指南 <span class="en">User Guide · Get Started in 5 Minutes</span>
 
-<p class="lead">用 5 分钟完成 iFastDesk 的桌面整理设置。跟着录屏安装软件、设置文件夹卡片、使用分屏和时光文件，再用启动器打开常用应用。</p>
+<p class="lead">用 5 分钟完成 Windows 桌面整理设置。跟着录屏安装 iFastDesk、设置文件夹卡片、使用分屏和时光文件，再用桌面启动器打开常用应用。</p>
 
 <p class="en lead">Everything from install and summon to rearranging, split view and time-based filing — a complete walkthrough.</p>
 
@@ -66,6 +66,9 @@ description: iFastDesk 小讯桌面站用户指南。跟着实机录屏设置桌
 
 <p class="zh">也可以把文件夹拖到<b>设置卡</b>上绑定，再在菜单里切换「单文件夹 / 多文件夹聚合」（单选 / 多选），灵活掌控每个面板到底显示什么。</p>
 <p class="en">You can also drop folders onto the <b>Settings card</b>, then toggle single-folder or multi-folder aggregation (single/multi-select) from the menu to control exactly what each panel shows.</p>
+
+<p class="zh">同时处理多个项目时，可以给「进行中」「待归档」和「常用模板」分别绑定一张卡片。回到工作台后，从对应卡片双击文件，就能接着处理。</p>
+<p class="en" lang="en">Give active projects, files to archive and frequently used templates a card each. Double-click a file in its card to pick up where you left off.</p>
 
 {% include app-video.html id="bind-folder" title="设置卡片对应的文件夹" caption="设置文件夹" ref="G05" loop=true %}
 

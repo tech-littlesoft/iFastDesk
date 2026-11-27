@@ -16,7 +16,7 @@
       {% include logo.html class="brand-mark" %}
       <span class="brand-text">
         <span class="brand-name">iFastDesk</span>
-        <span class="brand-sub">小迅桌面站 · 悬浮桌面</span>
+        <span class="brand-sub">小讯桌面站 · 悬浮桌面</span>
       </span>
     </a>
     {% include store-download.html %}
@@ -42,7 +42,7 @@
   </div>
 
   <footer class="site-footer">
-    <p>© {{ site.time | date: '%Y' }} iFastDesk · 小迅桌面站 / 悬浮桌面</p>
+    <p>© {{ site.time | date: '%Y' }} {{ site.title | escape }} / 悬浮桌面</p>
   </footer>
 
 {% if page.toc %}

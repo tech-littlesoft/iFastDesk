@@ -1,19 +1,19 @@
 ---
 layout: app
-title: iFastDesk 小迅桌面站
-description: iFastDesk 小讯桌面站是一款 Windows 桌面整理与办公效率工具，集桌面启动器（Launcher）、文件卡片与分屏于一体。
+title: iFastDesk 小讯桌面站
+description: iFastDesk 小讯桌面站是 Windows 桌面整理与办公效率工具。用悬浮桌面收纳常用文件夹，用启动器打开应用，支持文件分屏和近期文件查找。可从 Microsoft Store 下载安装。
 media: true
 product: true
 ---
 
 <!-- store-description:start -->
 
-# iFastDesk 小迅桌面站
+# iFastDesk 小讯桌面站
 <span class="en">iFastDesk Desktop Workstation</span>
 
 <p class="product-promise">常用的，都在手边。</p>
 
-<p class="lead">iFastDesk 小迅桌面站，又称<b>悬浮桌面</b>、<b>桌面工作站</b>——一块常驻你屏幕侧边的智能工作台。它把"文件管理、快捷访问、时光文件"收进一组悬浮卡片，鼠标移到屏幕左下角即呼出，移开即隐藏：不占任务栏、不抢焦点，让你的真实桌面永远干净。</p>
+<p class="lead">iFastDesk 小讯桌面站是一款 Windows <b>桌面整理与办公效率工具</b>。它把常用文件夹、应用启动器和时光文件放进一组悬浮卡片。鼠标移到屏幕左下角，工作台滑出，移开即收起，让你随时取用手头的文件和应用。</p>
 
 <div class="shot-strip store-gallery" role="region" aria-label="产品视图" tabindex="0">
 {% include app-image.html id="desktop-dark" alt="深色桌面全景" caption="深色桌面全景" sizes="(max-width: 820px) 510px, 730px" ref="A05" gallery=true %}
@@ -56,7 +56,7 @@ product: true
 
 <!-- store-description:end — 以下第 1–8 章仅用于网站，不同步到微软应用商店。 -->
 
-{% include store-download.html %}
+{% include store-download.html product=true %}
 
 <section class="product-feature" aria-labelledby="feature-1">
 <h2 id="feature-1"><span class="feature-number">01</span>呼之即出，挥之即去 <span class="en">There when you need it</span></h2>
@@ -79,7 +79,7 @@ product: true
 <section class="product-feature" aria-labelledby="feature-3">
 <h2 id="feature-3"><span class="feature-number">03</span>处理文件，不必离开工作台 <span class="en">Work with files, right here</span></h2>
 
-<p class="zh">在卡片中打开文件、创建资料、编辑名称，再移动到合适的目录。熟悉的 Windows 文件操作集中在一处，省去反复打开资源管理器的来回。</p>
+<p class="zh">日常桌面管理可以直接在卡片里完成。打开文件、新建资料、重命名，再移动到合适的目录。熟悉的 Windows 文件操作集中在一处，少切几个窗口。</p>
 <p class="en">Open, create, rename and move files from your cards. Keep familiar file actions close at hand instead of switching between Explorer windows.</p>
 
 {% include app-video.html id="file-actions" title="新建文件、编辑、移动与删除操作" caption="新建文件、编辑、移动与删除" ref="A09" loop=true %}
@@ -106,7 +106,7 @@ product: true
 <section class="product-feature" aria-labelledby="feature-6">
 <h2 id="feature-6"><span class="feature-number">06</span>常用文件夹，变成你的专属卡片 <span class="en">Your folders, your workspace</span></h2>
 
-<p class="zh">桌面文件、工作目录、收藏位置，不必每次从头找起。把它们设置到卡片中，让工作台展示你真正关心的内容。</p>
+<p class="zh">桌面收纳可以从每天要用的项目文件夹开始。<a href="{{ '/app/guide/' | relative_url }}#bind-folder">把常用文件夹绑定到卡片</a>，下次呼出工作台，就能从固定位置继续处理手头的资料。</p>
 <p class="en">Desktop files, project folders and favorite locations belong within easy reach. Set up your cards around the folders that matter to you.</p>
 
 {% include app-video.html id="bind-folder" title="为卡片设置文件夹" caption="设置文件夹" ref="A12" loop=true %}

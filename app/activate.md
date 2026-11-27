@@ -1,6 +1,6 @@
 ---
 layout: app
-title: iFastDesk 小迅桌面站·激活与订阅说明
+title: iFastDesk 小讯桌面站·激活与订阅说明
 toc: true
 ---
 

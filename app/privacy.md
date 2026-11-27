@@ -1,13 +1,13 @@
 ---
 layout: app
-title: iFastDesk 小迅桌面站·隐私说明
+title: iFastDesk 小讯桌面站·隐私说明
 toc: true
 ---
 
 # iFastDesk 隐私说明 <span class="en">iFastDesk Privacy Policy</span>
 
 > **最后更新 / Last updated:** 2026-11-20<br>
-> **应用 / App:** iFastDesk 小迅桌面站<br>
+> **应用 / App:** iFastDesk 小讯桌面站<br>
 > **发布者 / Publisher:** Littlesoft Team
 
 ## 1. 概述 <span class="en">Overview</span>

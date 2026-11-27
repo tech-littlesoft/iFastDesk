@@ -1,7 +1,7 @@
 ---
 layout: nav
 title: iFastDesk 小讯云端·网址导航
-description: iFastDesk 小讯云端网址导航，汇集常用搜索、办公学习与开发网站。了解 iFastDesk 桌面整理工具及使用指南。
+description: iFastDesk 小讯云端网址导航，汇集常用搜索、办公学习与开发网站。查看 iFastDesk 小讯桌面站的产品介绍、下载与用户指南。
 permalink: /
 ---
 
@@ -56,7 +56,7 @@ permalink: /
 <section class="nav-feature">
   <div class="nav-feature-text">
     <span class="tag">桌面整理 · 办公效率工具</span>
-    <h2>iFastDesk 小迅桌面站</h2>
+    <h2><a href="{{ '/app/' | relative_url }}">{{ site.title | escape }}</a></h2>
     <p>常驻你屏幕边缘的悬浮工作台——鼠标移到角落即呼出，把文件管理、快捷访问、时光收纳收进一组悬浮卡片，让你的真实桌面永远干净、永远高效。</p>
     <ul>
       <li>悬浮呼出，零点击常驻</li>
@@ -67,7 +67,7 @@ permalink: /
       <li>图标管理, 图标自由排序</li>
     </ul>
     <div class="nav-feature-cta">
-      <a class="btn-primary" href="{{ '/app/' | relative_url }}">免费下载</a>
+      <a class="btn-primary" href="{{ '/app/' | relative_url }}">产品介绍与下载</a>
       <a class="btn-ghost" href="{{ '/app/buy/' | relative_url }}">升级 Pro</a>
     </div>
   </div>
