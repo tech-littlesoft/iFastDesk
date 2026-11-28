@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <section class="nav-searchwrap">
-  <h1 class="nav-title">你的高效上网起点<span class="en">iFastDesk 导航 · 小讯云端网址导航</span></h1>
+  <h1 class="nav-title">学习办公更高效<span class="en">iFastDesk 导航 · 小讯云端网址导航</span></h1>
 
   <form id="navSearch" class="nav-search" action="https://www.baidu.com/s" method="get" target="_blank">
     <input type="text" id="navQ" name="wd" placeholder="搜索全网，或直接访问下方常用网站" aria-label="搜索" />
